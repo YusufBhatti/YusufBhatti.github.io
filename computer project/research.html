@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+<title>Yusuf Bhatti's Research</title>
+<!-- Import images for the header and numbered  -->
+
+<header>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 11</div>
+      <img src="./Images/IMG_1386.JPG" style="width:100%" height="300" title="Salt Flats, Utah">
+      <div class="text">Salt Flats, Utah</div>
+    </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 11</div>
+    <img src="./Images/IMG_0302.JPG" style="width:100%" height="300" title="Novalja, Croatia">
+    <div class="text">Novalja, Croatia</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 11</div>
+    <img src="./Images/IMG_1172.JPG" style="width:100%" height="300" title="Canyonlands, Utah">
+    <div class="text">Canyonlands, Utah</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 11</div>
+    <img src="./Images/IMG_1553.JPG" style="width:100%" height="300" title="Lipari, Italy">
+    <div class="text">Lipari, Italy</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 11</div>
+    <img src="./Images/IMG_0015.JPG" style="width:100%" height="300" title="Novalja, Croatia">
+    <div class="text">Novalja, Croatia</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 /11</div>
+    <img src="./Images/IMG_2125.JPG" style="width:100%" height="300" title="Bear Lake, Colorado">
+    <div class="text">Bear Lake, Colorado</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 11</div>
+    <img src="./Images/IMG_2920.JPG" style="width:100%" height="300" title="Mt. Etna, Italy">
+    <div class="text">Mt. Etna, Italy</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 11</div>
+    <img src="./Images/IMG_3325.JPG" style="width:100%" height="300" title="Salt Lake City, Utah">
+    <div class="text">Salt Lake City, Utah</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 11</div>
+    <img src="./Images/IMG_3328.JPG" style="width:100%" height="300" title="Isle of Skye, Scotland">
+    <div class="text">Isle of Skye, Scotland</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 11</div>
+    <img src="./Images/IMG_4070.JPG" style="width:100%" height="300" title="Red Rock Canyon, Nevada" >
+    <div class="text">Red Rock Canyon, Nevada</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 11</div>
+    <img src="./Images/IMG_8807.JPG" style="width:100%" height="300" title="Preikestolen, Norway">
+    <div class="text">Preikestolen, Norway</div>
+  </div>
+
+  </div>
+<style>
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+</style>
+
+
+
+
+<script>
+
+  // Automatic Slideshow - change image every 3 seconds
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 6000);
+  }
+  </script>
+
+</header>
+
+<body style="background: linear-gradient(to right, rgba(147,184,116,0), rgba(147,184,116,1));">
+<!-- Navigation -->
+<nav class="w3-bar w3-black" hr style="border: 6px solid black"​>
+  <a href="http://homepages.see.leeds.ac.uk/~ee18yb" class="w3-button w3-bar-item">Home</a>
+  <a href="research.html" class="w3-button w3-bar-item">Research</a>
+  <a href="scripts.html" class="w3-button w3-bar-item">Scripts</a>
+  <a href="models.html" class="w3-button w3-bar-item">Model Runs</a>
+  <a href="https://environment.leeds.ac.uk/atmospheric-chemistry-aerosols/doc/aerosols-climate" class="w3-button w3-bar-item">Aerosol Research Group</a>
+
+</nav>
+
+<section class="w3-container w3-center w3-content" style="max-width:65%">
+  <style>
+/* For the abstract first letter */
+    .first-letter {
+        float: left;
+        font-size: 50px;
+        line-height: 1;
+        font-weight: bold;
+        margin-right: 9px;
+  }
+  </style>
+  <!-- Abstract  -->
+
+<h3> <font color="#0040ff"> <b> <i> The global distribution of volcanic aerosol from a notional December 2017 major eruption of Mount Agung </b> </i> </font> </h3>
+ <hr style="border: 2px solid black"/> <h2> <font color="#0040ff"> <b> Abstract: </b> </font> </h2>
+<p class="w3-justify"> <font size="+1" style="font-family:Times;16px"><i><span class="first-letter">T</span>here have been 5 major volcanic eruptions since 1850 which exerted periods of strong surface cooling in decadal surface climate trends.
+Tropical eruptions cool the climate by injecting sulphur dioxide into the stratosphere, creating a long-lived, optically thick volcanic
+aerosol cloud. The magnitude and evolution of climate forcing impacts and global volcanic aerosol from volcanic eruptions remains very
+uncertain. Mt. Agung and Mt. Pinatubo had a major eruption in 1963 and 1991 respectively, both identifiably reducing global surface temperatures
+for several years. Agung magmatically reactivated in 2017 presenting the possibility for a new climate perturbing volcanic eruption. <br><br>
+
+We use the composition-climate model UM-UKCA with the interactive stratospheric aerosol module to predict the progression of the volcanic
+ aerosol cloud in the weeks and months after the hypothetical December 2017 eruption. This study simulates notional major eruptions of Agung
+ during the northern hemispheric winter in the present-day climate, focusing on global volcanic aerosol dispersion and climatic impacts. </i></p> </font>
+
+ <img src="./Images/Project/daily_10.gif" style="width:100%">
+ <h5 align="center"> </h5>
+ <p2  class="w3-justify"> <font size="-1"> <strong><i> Figure A. </strong> UM-UKCA daily AOD video illustration, following the injection of SO<sub>2,</sub> of the initial global distribution of volcanic aerosol
+   (October 2000 – November 2001) (10 Tg SO<sub>2</sub>-emissions Agung-free-running). Go to Model Runs to view more of these model plots. </font> </i> </strong> </p2>
+ <hr style="border: 0px solid black" />​
+ <hr style="border: 2px solid black" /> </i>
+
+ <h3> <font color="#0040ff"> <b> Project Description</b>  </font></h3>
+
+ <p class="w3-justify"> Solomon et al. (2011) studied the impact of volcanic eruptions on the tropospheric temperature, and found the temperature data from global volcanic influence was
+   overestimated by 80% and underestimated by 40%, highlighting a significant uncertainty. The radiative forcing uncertainty in aerosols have long been challenging the accuracy of
+   climate models, in particular volcanic stratospheric aerosols, due to the difficulty in quantifying the effects and long-life span of these aerosols. <br><br>
+
+Volcanic eruptions can be scaled using the Volcanic Explosivity Index (VEI 1-8), based on the ejecta volume, classification, description, frequency, and <b> stratospheric injection</b>.
+   The injection consists primarily of SO<sub>2</sub> which has potential for perturbing the dynamics of the stratosphere via shifts in stratospheric and tropospheric temperature,
+     when the volcano is located within the tropics (e.g. McCormick et al., 1995). SO<sub>2</sub> is chemically converted, after 30-40 days for substantial volumes of injection, into
+      H<sub>2</sub>SO<sub>4,</sub> which is described as a volcanic sulphate aerosol (Guo et al., 2004; Sekiya et al., 2017). When a tropical volcanic eruption has a VEI ≥ 5, enough
+       SO<sub>2</sub> (5+ Tg) may be injected into the stratosphere (21-23 km), it has the potential to envelop the Earth and promote the enhancement of the stratospheric aerosol layer,
+       as shown in Figure 2 (Deshler, 2008). <br> <br> </p>
+
+
+        <img src="./Images/sage_pinatubo.JPG" style="width:50%">
+        <h5 align="center"> </h5>
+        <p  class="w3-justify">  <font size="-1"> <strong><i> Figure B. </strong> Sage II measurements of stratospheric optical depth of 1020 nm displaying four periods. Nominal conditions between April and May, 1991 (top left),
+           the initial injection of SO<sub>2</sub> from 15/06/1991 to 25/07/1991 (top right), 23/08/1991 to 30/09/1991 (bottom left) and 05/12/1991 to 16/01/1992 (bottom right) (Self et al., 1996). The volcanic aerosol
+         slowly covers the Earth's stratosphere. </i> </font></strong><br><br>
+
+        Consequently, the stratosphere would warm and the troposphere would cool, relative to the volume of SO<sub>2,</sub> due to changes in the incoming and outgoing solar radiation
+        (Schmidt et al., 2018). Furthermore, quantifying the dispersion of volcanic sulphate aerosol may be vital in mitigating the large radiative forcing uncertainty. Figure 3 illustrates
+        the zonal-mean effective radius and of aerosol particles of the last five major tropical eruptions through a time series against the latitude and compares the different global dispersions. </p>
+  <br> <br>
+
+ <img src="./Images/AOD.PNG" style="width:100%">  <h5 align="center"> </h5>
+ <p class="w3-justify">  <font size="-1"> <strong><i> Figure C. </strong> Zonal-mean effective radius of the past five major volcanic eruptions in a time-series format showing the latitudinal variations (Sato et al., 1993).  </font> </i> <br><br></p>
+
+ <p class="w3-justify">  There are two primary dynamic systems which control the dispersion of stratospheric aerosol. The Brewer Dobson Circulation controls the vertical and meridional pathways, leading to a
+  diabatic residual circulation (Holton et al., 2004). The Quasi-biennial Oscillation is a quasiperiodic transitional zonal wind which dictates the initial direction of stratospheric aerosol in the lower stratosphere. <br><br>
+  A successful outcome of this project would be to assist in mitigating the radiative forcing uncertainty surrounding volcanic sulphate aerosols through analysing the global dispersion at different magnitude injections.
+</p> <br>
+
+<h3> <font color="#0040ff"> <b> Improvements </b>  </font></h3>
+
+ <p class="w3-justify"> Due to the nature of the MRes, it was difficult to broaden the topic and allow for slight deviations within the project. There is room for improvement in the project in a number of ways. <br><br>
+By using a singular volcano, rather than a diverse range at different latitudes, limits the applicability for a fair comparison to other eruptions. Therefore, it is fair to suggest including other large volcanic eruptions, such as Mount Pinatubo,
+ Mount St. Helens, Eyjafjallajökull and potentially Yellowstone. In addition to this, using multiple injection heights may also provide a more accurate representation of SO<sub>2</sub> being injected into the stratosphere. The microphysical
+  properties of volcanic aerosol are very complex, but this project assumes the stratospheric aerosol optical depth wavelength at 550 nm. Although it is challenging for the model to consider multiple microphysical parameters, Dhomse et al. (2014) experimented successfully with it and may have been possible with this project.<br><br>
+It may also be beneficial to model volcanic eruptions with a continued SO<sub>2</sub> injection, rather than instantaneously. This would be more realistic in most circumstances and allow for a more practical application for the stratospheric
+sulphate aerosol geoengineering strategy.
+</p>
+ <h3> <font color="#0040ff"> <b> Future Work/Next Steps </b>  </font></h3>
+ <p class="w3-justify"> 
+The daily and monthly radiative forcing 20 Tg SO<sub>2</sub> plots need to still be constructed, but that data is currently unavailable and should open up by the end of May. In addition, there is a possibility of doing 5 Tg SO<sub>2</sub> but the data also remains unavailable.<br><br>
+Conducting statistical tests to evaluate the changes from the normal condions to the perturbed stratosphere is currently being done. The method of statistical testing is undecided,
+   but Pearsons correlation coefficient is favourable due to the nature of measuring a correlation between the two conditions. Furthermore, producing box and whisker plots may also be a possibility, but currently is under review. <br><br>
+A time series plot of radiative forcing and aerosol optical depth changes would be interesting to display, but not vital to the project. This may be constructed when other plots have been completed.
+ </p>
+
+ <h3 align="left"> <b> References </h3><a name="References"></a> </b>
+   <p2 class="w3-justify">
+     <li> Deshler, T. 2008. A review of global stratospheric aerosol: Measurements, importance, life cycle, and local stratospheric aerosol,<i> Atmospheric Research</i>, <b>90</b>, 223–232.
+     <li> Dhomse, S., Emmerson, K., Mann, G., Bellouin, N., Carslaw, K., Chipperfield, M., Hommel, R., Abraham, N., Telford, P., Braesicke, P., Dalvi, M., Johnson, C., O, Connor, F., Morgenstern, O.,
+       Pyle, J., Deshler, T., Zawodny, J. and Thomason, L. 2014. Aerosol microphysics simulations of the Mt. Pinatubo eruption with the UM-UKCA composition-climate model. <i>Atmospheric Chemistry and
+       Physics</i>, <b>14</b>(20), pp.11221-11246.
+     <li> Guo, S., Bluth, G., Rose, W., Watson, I. and Prata, A. 2004. Re-evaluation of SO2release of the 15 June 1991 Pinatubo eruption using ultraviolet and infrared satellite sensors. <i>Geochemistry,
+       Geophysics, Geosystems </i>, <b>5</b>(4).
+     <li> Holton, J. R., 2004: An Introduction to Dynamical Meteorology. 4th ed. Elsevier Academic, 535 pp
+     Iles, C., Hegerl, G., Schurer, A. and Zhang, X. 2013. The effect of volcanic eruptions on global precipitation. <i>Journal of Geophysical Research: Atmospheres</i>, <b>118</b>(16), pp.8770-8786.
+     <li> McCormick, M., Thomason, L. and Trepte, C. 1995. Atmospheric effects of the Mt Pinatubo eruption. <i>Nature</i>, <b>373</b>(6513), pp.399-404.
+     <li> Sato, M., J.E. Hansen, M.P. McCormick, and J.B. Pollack, 1993: Stratospheric aerosol optical depths, 1850-1990.<i> J. Geophys. Res.</i>, <b>98</b>, 22987-22994.
+     <li> Schmidt, A., Mills, M., Ghan, S., Gregory, J., Allan, R., Andrews, T., Bardeen, C., Conley, A., Forster, P., Gettelman, A., Portmann, R., Solomon, S. and Toon, O. 2018. Volcanic Radiative Forcing From
+       1979 to 2015. <i>Journal of Geophysical Research: Atmospheres,</i> <b>123</b>(22), pp.12,491-12,508.
+     <li> Sekiya, T., Sudo, K. and Nagai, T. 2016. Evolution of stratospheric sulfate aerosol from the 1991 Pinatubo eruption: Roles of aerosol microphysical processes. <i>Journal of Geophysical Research: Atmospheres</i>,
+        <b>121</b>(6), pp.2911-2938.
+    <li> Self, S.,J. X. Zhao, R. E. Holasek, R. C. Torres, and A. J. King (1996), The atmospheric impact of the 1991 Mount Pinatubo eruption, in <i>Fire and Mud: Eruptions and Lahars of Mount Pinatubo, Philippines</i>, edited by
+           C. G. Newhall and R. Punongbayan, pp. 1098–1195, Philippine Institute of Volcanology and Seismology, Quezon City Univ., Univ. of Wash. Press, Seattle and London, U. K
+     <li> Solomon, S., Daniel, J., Neely, R., Vernier, J., Dutton, E. and Thomason, L. (2011). The Persistently Variable "Background" Stratospheric Aerosol Layer and Global Climate Change. <i>Science</i>, <b>333</b>(6044),
+       pp.866-870.
+   </p2>
+
+
+
+
+
+   </section>
+
+   <hr style="border: 0px solid black" />​
+
+</body>
+
+<!--------------------- Footer -------------------->
+<footer>
+
+
+<style>
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1px 1px;
+  text-align: center;
+  }
+</style>
+
+<div class="footer">
+      <img src="./Images/logo.PNG" title="University of Leeds" alt="uni" align="right" height="50"  </img>
+      <p  align="left" style="font-size:70%;" class="w3-opacity"> E-mail: <b>ee18yb@leeds.ac.uk</b> <br /> Address: <b>School of Earth and Environment, University of Leeds </b> <br/> <b>Leeds, LS2 9JT, United Kingdom </b> </p>
+  </div>
+
+</footer>
+
+
+</html>

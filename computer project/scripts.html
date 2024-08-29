@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+<title>Yusuf Bhatti's Scripts</title>
+<!-- Import images for the header and numbered  -->
+
+<header>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 11</div>
+      <img src="./Images/IMG_1386.JPG" style="width:100%" height="300" title="Salt Flats, Utah">
+      <div class="text">Salt Flats, Utah</div>
+    </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 11</div>
+    <img src="./Images/IMG_0302.JPG" style="width:100%" height="300" title="Novalja, Croatia">
+    <div class="text">Novalja, Croatia</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 11</div>
+    <img src="./Images/IMG_1172.JPG" style="width:100%" height="300" title="Canyonlands, Utah">
+    <div class="text">Canyonlands, Utah</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 11</div>
+    <img src="./Images/IMG_1553.JPG" style="width:100%" height="300" title="Lipari, Italy">
+    <div class="text">Lipari, Italy</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 11</div>
+    <img src="./Images/IMG_0015.JPG" style="width:100%" height="300" title="Novalja, Croatia">
+    <div class="text">Novalja, Croatia</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 /11</div>
+    <img src="./Images/IMG_2125.JPG" style="width:100%" height="300" title="Bear Lake, Colorado">
+    <div class="text">Bear Lake, Colorado</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 11</div>
+    <img src="./Images/IMG_2920.JPG" style="width:100%" height="300" title="Mt. Etna, Italy">
+    <div class="text">Mt. Etna, Italy</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 11</div>
+    <img src="./Images/IMG_3325.JPG" style="width:100%" height="300" title="Salt Lake City, Utah">
+    <div class="text">Salt Lake City, Utah</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 11</div>
+    <img src="./Images/IMG_3328.JPG" style="width:100%" height="300" title="Isle of Skye, Scotland">
+    <div class="text">Isle of Skye, Scotland</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 11</div>
+    <img src="./Images/IMG_4070.JPG" style="width:100%" height="300" title="Red Rock Canyon, Nevada" >
+    <div class="text">Red Rock Canyon, Nevada</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 11</div>
+    <img src="./Images/IMG_8807.JPG" style="width:100%" height="300" title="Preikestolen, Norway">
+    <div class="text">Preikestolen, Norway</div>
+  </div>
+
+  </div>
+<style>
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+</style>
+
+
+
+
+<script>
+
+  // Automatic Slideshow - change image every 3 seconds
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 6000);
+  }
+  </script>
+
+</header>
+
+<body style="background: linear-gradient(to right, rgba(147,184,116,0), rgba(147,184,116,1));">
+<!-- Navigation -->
+<nav class="w3-bar w3-black" hr style="border: 6px solid black"​>
+  <a href="http://homepages.see.leeds.ac.uk/~ee18yb" class="w3-button w3-bar-item">Home</a>
+  <a href="research.html" class="w3-button w3-bar-item">Research</a>
+  <a href="scripts.html" class="w3-button w3-bar-item">Scripts</a>
+  <a href="models.html" class="w3-button w3-bar-item">Model Runs</a>
+  <a href="https://environment.leeds.ac.uk/atmospheric-chemistry-aerosols/doc/aerosols-climate" class="w3-button w3-bar-item">Aerosol Research Group</a>
+
+</nav>
+<section class="w3-container w3-content" style="max-width:65%">
+  <h2 class="w3-wide">Yusuf Bhatti - Model Scripts </h2>
+  <p1 class="w3-opacity"><i>Master of Research Student in Climate and Atmospheric Science </i> </p1>
+  <hr style="border: 2px solid black" />
+  <!-- design the table  -->
+<h1> Download Links </h1>
+
+  <style>
+  table {
+    width:100%;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  table#t01 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+  }
+  table#t01 th {
+    background-color: black;
+    color: white;
+  }
+  </style>
+  <!-- put links of the data in table  -->
+
+  <table id="t01">
+  <tr>
+    <th>File Type</th>
+    <th>0 Tg (xnsbg)</th>
+    <th>10 Tg (xnsbh)</th>
+    <th>20 Tg (xnsbi)</th>
+  </tr>
+  <tr>
+    <td>Monthly AOD Script(.py) </td>
+    <td>N/A</td>
+    <td> <a href="./scripts/ONDJ_xnsbh.py" style="color:blue" download>Click Here</a> (5.23 KB) (Below - Figure 4) </td>
+    <td> <a href="./scripts/ONDJ_xnsbi.py" style="color:blue" download>Click Here</a> (5.25 KB) (Figure 2) </td>
+
+
+      <tr>
+        <td>Monthly AOD Script for the<br> GIF (.py) </td>
+        <td>N/A</td>
+        <td> <a href="./scripts/xnsbh_monthly_video.py" style="color:blue" download>Click Here</a> (5.6 KB) (Figure 3) </td>
+        <td> <a href="./scripts/xnsbi_monthly_video.py" style="color:blue" download>Click Here</a> (5.85 KB) (Figure 1) </td>
+
+  </tr>
+
+  <tr>
+    <td>Daily AOD Script(.py) </td>
+    <td>N/A</td>
+    <td><a href="./scripts/Daily_xnsbh_A.py" style="color:blue" download>Click Here</a> (5.33 KB) (Figure 7)</td>
+    <td>N/A</td>
+  </tr>
+
+  <tr>
+    <td>Daily AOD Script for the <br> GIF (.py) </td>
+    <td>N/A</td>
+    <td><a href="./scripts/xnsbh_daily_video.py" style="color:blue" download>Click Here</a> (5.7 KB) (Figure 6)</td>
+    <td>N/A</td>
+  </tr>
+
+  <tr>
+    <td>Radiative Forcing Script(.py) </td>
+    <td>N/A</td>
+    <td> <a href="./scripts/Radiative_Forcing_xnsbh_ONDJ.py" style="color:blue" download>Click Here</a> (5.3 KB)  (Figure 5)</td>
+    <td>N/A</td>
+  </tr>
+
+  <tr>
+    <td>Monthly AOD NetCDF Data <br> Files (.nc) </td>
+    <td>N/A</td>
+    <td> <a href="./scripts/xnsbh_monthlyAOD.zip" style="color:blue" download> Click Here</a> (33.6 MB)</td>
+    <td> <a href="./scripts/xnsbi_monthlyAOD.zip" style="color:blue" download> Click Here</a> (33.5 MB)</td>
+  </tr>
+
+  <tr>
+    <td>Daily AOD NetCDF Data <br> Files (.nc)</td>
+    <td>N/A</td>
+    <td> <a href="./scripts/xnsbh_dailyAOD.zip" style="color:blue" download> Click Here</a> (776.9 MB)</td>
+    <td>N/A</td>
+  </tr>
+
+  <tr>
+    <td>Radiative Forcing NetCDF<br> Data Files (.nc)</td>
+    <td> <a href="./scripts/xnsbg_Radiative_Forcing.zip" style="color:blue" download> Click Here</a> (4.83 MB)</td>
+    <td> <a href="./scripts/xnsbh_Radiative_Forcing.zip" style="color:blue" download> Click Here</a> (4.83 MB)</td>
+    <td> N/A </td>
+  </tr>
+</table>
+
+
+  <h3> <b> Instructions to Download and Use the Data</b> </h3>
+  <p class="w3-justify"> Download the python scripts and NetCFD data files from the links [above]. Unzip the data files and organise it within directories relative to what it represents (there are 15 monthly xnsbh AOD files).
+    Once the data files are downloaded and organised within their respective directories, <a href="https://www.anaconda.com/distribution/#download-section" style="color:blue"> download Anaconda</a>
+    (version 2.7) and follow their instructions for the installation of a python operating software. I used Spyder, as I found it easy and simple to use and allowed me to visualise
+     the many variable size's, type's and value's. Once the scripts are fully accessible within a programming software, it should be able to run. <a style="color:red"> Please note to change the 'inpath' to where the data is stored on the computer. </a>
+     Although it may be advantageous and easier to use a Linux environment whilst programming, it is possible to construct plots in Windows. To use the data and scripts [above], it is best to view the model runs on the next page and download the files related to each figure.
+
+     <br><br> The data used is in netCDF format which the model runs use the interactive stratospheric aerosol model (UM-UKCA) - the UK Met Office Unified Model (UM) general circulation model with the UK
+     Chemistry and Aerosol Scheme (UKCA). With a resolution of 1.875° longitude by 1.25° latitude and 85 vertical levels up to 85 km, the stratospheric circulatory systems can be internally generated and allow for an accurate
+     real-world application of aerosol dispersion.
+
+
+  <h3> <b> Scripts </b> </h3>
+  <p class="w3-justify"> The following script is an example of the scripts available [above], which produce a number of models using the data available via the download links. These scripts utilise programming techniques, ultimately
+    constructing similar plots designs. <b>All scripts were written and formatted by myself with some guidance by Dr Sandip Dhomse and PhD student, Sarah Shallcross.</b>
+    The data was provided by my supervisor, Dr Graham Mann. The following script displays the global stratospheric aerosol optical depth (AOD) from a notional volcanic eruption of Mt. Agung
+    from 10 Tg SO<sub>2</sub> injected into the stratosphere at 21-23 km altitude in one day (01/10/2000).
+<section>
+  <h5> <b> Monthly AOD for 10 Tg </b> </h5>
+  <p class="w3-justify"> Before reading in the NetCDF files and their respective months for the stratospheric Aerosol Optical Depth, import all the necessary modules.
+  Then read the files in through defining each section of the directory to make it simple to loop through the entire directory for the targetted files.</p>
+
+  <!-- Put the python code in HTML format  -->
+
+  <!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">#!/usr/bin/env python2</span>
+  <span style="color: #408080; font-style: italic"># -*- coding: utf-8 -*-</span>
+  <span style="color: #BA2121; font-style: italic">&quot;&quot;&quot;</span>
+  <span style="color: #BA2121; font-style: italic">Created on Tue Mar 19 13:28:58 2019</span>
+
+  <span style="color: #BA2121; font-style: italic">@author: ee18yb - Yusuf Bhatti</span>
+  <span style="color: #BA2121; font-style: italic">&quot;&quot;&quot;</span>
+
+  <span style="color: #BA2121; font-style: italic">&quot;&quot;&quot;</span>
+  <span style="color: #BA2121; font-style: italic">Read in netcdf files and read in AOD</span>
+
+  <span style="color: #BA2121; font-style: italic">&quot;&quot;&quot;</span>
+  <span style="color: #408080; font-style: italic">### Import modules ###</span>
+
+  <span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">numpy</span> <span style="color: #008000; font-weight: bold">as</span> <span style="color: #0000FF; font-weight: bold">np</span>
+  <span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">netCDF4</span> <span style="color: #008000; font-weight: bold">import</span> Dataset
+  <span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">matplotlib.pyplot</span> <span style="color: #008000; font-weight: bold">as</span> <span style="color: #0000FF; font-weight: bold">plt</span>
+  <span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">cartopy.crs</span> <span style="color: #008000; font-weight: bold">as</span> <span style="color: #0000FF; font-weight: bold">ccrs</span>
+  <span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">matplotlib.colors</span> <span style="color: #008000; font-weight: bold">as</span> <span style="color: #0000FF; font-weight: bold">mcolors</span>
+  <span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">cartopy.feature</span> <span style="color: #008000; font-weight: bold">as</span> <span style="color: #0000FF; font-weight: bold">cfeature</span>
+  <span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">matplotlib.gridspec</span> <span style="color: #008000; font-weight: bold">as</span> <span style="color: #0000FF; font-weight: bold">gridspec</span>
+  <span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">matplotlib</span> <span style="color: #008000; font-weight: bold">as</span> <span style="color: #0000FF; font-weight: bold">mpl</span>
+  <span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">mpl_toolkits.basemap</span> <span style="color: #008000; font-weight: bold">import</span> Basemap, cm
+  <span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">matplotlib.dates</span> <span style="color: #008000; font-weight: bold">import</span> date2num
+  <span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">datetime</span> <span style="color: #008000; font-weight: bold">import</span> datetime, timedelta
+  <span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">netCDF4</span> <span style="color: #008000; font-weight: bold">import</span> num2date, date2num, date2index
+
+  <span style="color: #408080; font-style: italic">### Read in and define netcdf files of monthly 10 Tg SO2 progression ###</span>
+  <span style="color: #408080; font-style: italic">### by defining the directory pathway ###</span>
+  expname<span style="color: #666666">=</span><span style="color: #BA2121">&#39;xnsbh&#39;</span>
+  inpath <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;E://Data Files (NetCDF)/&#39;</span><span style="color: #666666">+</span>expname<span style="color: #666666">+</span><span style="color: #BA2121">&#39;/Monthly_AOD/&#39;</span>
+
+  <span style="color: #408080; font-style: italic">### To access months for the plot, use: </span>
+  <span style="color: #408080; font-style: italic">#mnames=[&#39;0sep&#39;,&#39;0oct&#39;,&#39;0nov&#39;,&#39;0dec&#39;,&#39;1jan&#39;,&#39;1feb&#39;,&#39;1mar&#39;,&#39;1apr&#39;,&#39;1may&#39;,</span>
+  <span style="color: #408080; font-style: italic">#        &#39;1jun&#39;,&#39;1jul&#39;,&#39;1aug&#39;,&#39;1sep&#39;,&#39;1oct&#39;,&#39;1nov&#39;]</span>
+  mnames<span style="color: #666666">=</span>[<span style="color: #BA2121">&#39;0oct&#39;</span>,<span style="color: #BA2121">&#39;0nov&#39;</span>,<span style="color: #BA2121">&#39;0dec&#39;</span>,<span style="color: #BA2121">&#39;1jan&#39;</span>]
+  </pre></div>
+
+
+<p class="w3-justify"> Before constructing the loop for all the data files, set up a subplot figure containing 2 rows and 2 columns  with a good figure size and well spaced between each plot. </p>
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">### Create the subplots (nrows, ncolns) and set the size of plots ###</span>
+fig, axes <span style="color: #666666">=</span> plt<span style="color: #666666">.</span>subplots(nrows<span style="color: #666666">=2</span>, ncols<span style="color: #666666">=2</span>, sharex<span style="color: #666666">=</span><span style="color: #008000">True</span>, figsize<span style="color: #666666">=</span>(<span style="color: #666666">15.745</span>,<span style="color: #666666">15</span>))
+fig<span style="color: #666666">.</span>subplots_adjust(hspace<span style="color: #666666">=-0.63</span>, wspace<span style="color: #666666">=0.2</span>)
+</pre></div>
+
+<p class="w3-justify"> Loop the files within the directory and extract all necessary data to be collated in a plot. </p>
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">###################################################################################</span>
+<span style="color: #408080; font-style: italic">######################### Extracting the data for the plots #######################</span>
+<span style="color: #408080; font-style: italic">###################################################################################</span>
+
+<span style="color: #408080; font-style: italic">### Looping the variables needed to be extracted for the different months ###</span>
+
+<span style="color: #008000; font-weight: bold">for</span> ax,name <span style="color: #AA22FF; font-weight: bold">in</span> <span style="color: #008000">zip</span>(axes<span style="color: #666666">.</span>flat, mnames):
+    infile<span style="color: #666666">=</span> inpath<span style="color: #666666">+</span>expname<span style="color: #666666">+</span><span style="color: #BA2121">&#39;a_pd200&#39;</span><span style="color: #666666">+</span>name<span style="color: #666666">+</span><span style="color: #BA2121">&#39;sAODtracersMDSJamesB.nc&#39;</span> <span style="color: #408080; font-style: italic"># Complete the pathway to loop all files # </span>
+    vn<span style="color: #666666">=</span>Dataset(infile)
+    lon       <span style="color: #666666">=</span> vn<span style="color: #666666">.</span>variables[<span style="color: #BA2121">&#39;longitude&#39;</span>][:]
+    lat      <span style="color: #666666">=</span> vn<span style="color: #666666">.</span>variables[<span style="color: #BA2121">&#39;latitude&#39;</span>][:]
+    time      <span style="color: #666666">=</span> vn<span style="color: #666666">.</span>variables[<span style="color: #BA2121">&#39;t&#39;</span>][:]
+    Ait_Ins0 <span style="color: #666666">=</span> vn<span style="color: #666666">.</span>variables[<span style="color: #BA2121">&#39;AITKEN_MODE__INSOL__STRATO_AOD&#39;</span>][:]
+    Ait_Sol0 <span style="color: #666666">=</span> vn<span style="color: #666666">.</span>variables[<span style="color: #BA2121">&#39;AITKEN_MODE__SOLUBLE__STRATO__AOD&#39;</span>][:]
+    Coa_Ins0 <span style="color: #666666">=</span> vn<span style="color: #666666">.</span>variables[<span style="color: #BA2121">&#39;COARSE_MODE__INSOL__STRATO_AOD&#39;</span>][:]
+    Coa_Sol0 <span style="color: #666666">=</span> vn<span style="color: #666666">.</span>variables[<span style="color: #BA2121">&#39;COARSE_MODE__SOLUBLE__STRATO_AOD&#39;</span>][:]
+    Acc_Ins0 <span style="color: #666666">=</span> vn<span style="color: #666666">.</span>variables[<span style="color: #BA2121">&#39;ACCUM_MODE__INSOL__STRATO_AOD&#39;</span>][:]
+    Acc_Sol0 <span style="color: #666666">=</span> vn<span style="color: #666666">.</span>variables[<span style="color: #BA2121">&#39;ACCUM_MODE__SOLUBLE__STRATO_AOD&#39;</span>][:]
+</pre></div>
+
+<p class="w3-justify">To calculate the Aerosol Optical Depth (AOD) from the volcanic aerosol, sum up all the particle size variables. Squeeze this data to extract the size distribution, only.
+After that, format the time and date for the plots.</p>
+
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">### Add up all components [above] to get an overall aod ###</span>
+    aod       <span style="color: #666666">=</span> Ait_Ins0<span style="color: #666666">+</span>Ait_Sol0<span style="color: #666666">+</span>Coa_Ins0<span style="color: #666666">+</span>Coa_Sol0<span style="color: #666666">+</span>Acc_Ins0<span style="color: #666666">+</span>Acc_Sol0
+    <span style="color: #008000; font-weight: bold">print</span>(np<span style="color: #666666">.</span>shape(aod))
+
+<span style="color: #408080; font-style: italic">### Extract the second dimension to obtain the ###</span>
+    aod550<span style="color: #666666">=</span>np<span style="color: #666666">.</span>squeeze(aod[:,<span style="color: #666666">2</span>,:,:])
+    <span style="color: #008000; font-weight: bold">print</span>(np<span style="color: #666666">.</span>shape(aod550))
+
+<span style="color: #408080; font-style: italic">### Set the time and date of each plots ####</span>
+    t_unit<span style="color: #666666">=</span><span style="color: #BA2121">&quot;days since 2000-09-01T00:00:00Z&quot;</span>
+    <span style="color: #408080; font-style: italic">#t_cal =  vn1.variables[tname].calendar</span>
+    t_cal <span style="color: #666666">=</span>  <span style="color: #BA2121">&quot;360_day&quot;</span>
+
+    dates <span style="color: #666666">=</span>num2date(time,units<span style="color: #666666">=</span>t_unit,calendar<span style="color: #666666">=</span>t_cal)
+    <span style="color: #008000; font-weight: bold">print</span>(dates)
+    ntime<span style="color: #666666">=</span><span style="color: #008000">len</span>(time)
+</pre></div>
+
+
+<p class="w3-justify"> Import matplotlib to set the label fonts and font sizes. </p>
+
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">### Creating map variables ###</span>
+    <span style="color: #008000; font-weight: bold">import</span>  <span style="color: #0000FF; font-weight: bold">matplotlib</span>
+
+<span style="color: #408080; font-style: italic">### set the font size globally to get the ticklabels big ###</span>
+
+    matplotlib<span style="color: #666666">.</span>rcParams[<span style="color: #BA2121">&#39;font.sans-serif&#39;</span>] <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;Arial&quot;</span>
+    matplotlib<span style="color: #666666">.</span>rcParams[<span style="color: #BA2121">&#39;font.family&#39;</span>] <span style="color: #666666">=</span> <span style="color: #BA2121">&quot;sans-serif&quot;</span>
+
+    label_size<span style="color: #666666">=10</span>
+    mpl<span style="color: #666666">.</span>rcParams[<span style="color: #BA2121">&#39;xtick.labelsize&#39;</span>] <span style="color: #666666">=</span>label_size
+    mpl<span style="color: #666666">.</span>rcParams[<span style="color: #BA2121">&#39;ytick.labelsize&#39;</span>] <span style="color: #666666">=</span>label_size
+
+    plt<span style="color: #666666">.</span>rc(<span style="color: #BA2121">&#39;grid&#39;</span>, color <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;black&#39;</span>)
+    plt<span style="color: #666666">.</span>rc(<span style="color: #BA2121">&#39;grid&#39;</span>, alpha <span style="color: #666666">=</span> <span style="color: #666666">0.3</span>) <span style="color: #408080; font-style: italic"># alpha is percentage of transparency #</span>
+
+    plt<span style="color: #666666">.</span>rcParams[<span style="color: #BA2121">&#39;xtick.labelsize&#39;</span>] <span style="color: #666666">=</span> <span style="color: #666666">10</span>
+    plt<span style="color: #666666">.</span>rcParams[<span style="color: #BA2121">&#39;ytick.labelsize&#39;</span>] <span style="color: #666666">=</span> <span style="color: #666666">10</span>
+</pre></div>
+
+<p class="w3-justify">Begin plotting the data for the months. Start by initialising the focal point of the plots (centered at the Pacific Ocean), and set the
+   map projection (Equidistant Cylindrical Projection) and the resolution of the map (coarse for a more visually cleaner aesthetic).
+ Add features on the map, such as coastlines and country borders. To plot the longitude (meridians) and latitude (parallels), set the axis extent
+followed by drawing them on the plot. </p>
+
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">###################################################################################</span>
+<span style="color: #408080; font-style: italic">###################### Ploting models for the Months ##############################</span>
+<span style="color: #408080; font-style: italic">###################################################################################</span>
+
+<span style="color: #408080; font-style: italic">#### Setting up a [Mercator] projection with the focus at 180 W and ####</span>
+<span style="color: #408080; font-style: italic">################ coarse resoltuion coastlines ##########################</span>
+    map_ax <span style="color: #666666">=</span> Basemap(llcrnrlon<span style="color: #666666">=0.</span>,llcrnrlat<span style="color: #666666">=-80</span>,urcrnrlon<span style="color: #666666">=358.</span>,urcrnrlat<span style="color: #666666">=85</span>,
+            projection<span style="color: #666666">=</span><span style="color: #BA2121">&#39;cyl&#39;</span>,resolution <span style="color: #666666">=</span><span style="color: #BA2121">&#39;c&#39;</span>,ax<span style="color: #666666">=</span>ax)
+
+<span style="color: #408080; font-style: italic">### Add coastlines and countries ###</span>
+    map_ax<span style="color: #666666">.</span>drawcoastlines()
+    map_ax<span style="color: #666666">.</span>drawcountries()
+
+<span style="color: #408080; font-style: italic">### organise the longitude and latitude using meshgrid ###</span>
+    lons, lats <span style="color: #666666">=</span> np<span style="color: #666666">.</span>meshgrid(lon, lat)
+<span style="color: #408080; font-style: italic">### Define x and y as Longitude and Latitude ###</span>
+    x, y <span style="color: #666666">=</span> map_ax(lons, lats)
+
+<span style="color: #408080; font-style: italic">### Plotting Latitude and Longitude grid every 30 and 60 degrees, respectively ###</span>
+    meridians <span style="color: #666666">=</span> np<span style="color: #666666">.</span>arange(<span style="color: #666666">0.</span>,<span style="color: #666666">360</span>,<span style="color: #666666">60.</span>)
+    parallels <span style="color: #666666">=</span> np<span style="color: #666666">.</span>arange(<span style="color: #666666">-90.</span>,<span style="color: #666666">90</span>,<span style="color: #666666">30.</span>)
+    map_ax<span style="color: #666666">.</span>drawmeridians(meridians,labels<span style="color: #666666">=</span>[<span style="color: #666666">0</span>,<span style="color: #666666">0</span>,<span style="color: #666666">0</span>,<span style="color: #666666">1</span>],fontsize<span style="color: #666666">=12</span>)
+    map_ax<span style="color: #666666">.</span>drawparallels(parallels,labels<span style="color: #666666">=</span>[<span style="color: #666666">1</span>,<span style="color: #666666">0</span>,<span style="color: #666666">0</span>,<span style="color: #666666">0</span>],fontsize<span style="color: #666666">=12</span>)
+</pre></div>
+
+<p class="w3-justify"> Finally, it is time to construct the plots. The axis for the colourbar is important for all plots to retain similar extents, therefore setting a limit
+and implementing it within the plot is necessary for a clear comparison. Using contourf, implement the x and y values (lons and lats) and the axis in the plot. The colourbar used is 'jet' for a better distinction of high and low AOD.
+Include a colourbar with a set location (right side of plot). The individual titles for the plots are set to a loop of the month for the data and is saved as one figure. Alternatively, it could be possible to label each plot: A, B, C and D. </p>
+
+<!-- HTML generated using hilite.me --><div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #888888"><pre style="margin: 0; line-height: 125%"><span style="color: #408080; font-style: italic">###################################################################################</span>
+<span style="color: #408080; font-style: italic">################################## Construct the plot #############################</span>
+<span style="color: #408080; font-style: italic">###################################################################################</span>
+<span style="color: #408080; font-style: italic">### Set the axis ###</span>
+    clevs<span style="color: #666666">=</span>np<span style="color: #666666">.</span>arange(<span style="color: #666666">0+0.025</span>,<span style="color: #666666">0.55+0.025</span>,<span style="color: #666666">0.025</span>)
+
+    cs <span style="color: #666666">=</span> ax<span style="color: #666666">.</span>contourf(lon,lat,aod550,clevs,cmap<span style="color: #666666">=</span><span style="color: #BA2121">&#39;jet&#39;</span>)
+
+<span style="color: #408080; font-style: italic">### Add colourbar ###</span>
+    cbar <span style="color: #666666">=</span> map_ax<span style="color: #666666">.</span>colorbar(cs,location<span style="color: #666666">=</span><span style="color: #BA2121">&#39;right&#39;</span>,pad<span style="color: #666666">=</span><span style="color: #BA2121">&quot;5%&quot;</span>)
+    cbar<span style="color: #666666">.</span>set_label(<span style="color: #BA2121">&#39;stratospheric AOD&#39;</span>,fontsize<span style="color: #666666">=12</span>)
+    sdate<span style="color: #666666">=</span><span style="color: #008000">str</span>(dates[<span style="color: #666666">0</span>])
+
+<span style="color: #408080; font-style: italic">### Add title with the looped dates ###</span>
+    plt<span style="color: #666666">.</span>title(<span style="color: #BA2121">&quot;10 Tg SO$_2$ @ 21-23 km height&quot;</span><span style="color: #666666">+</span><span style="color: #BA2121">&quot; (&quot;</span><span style="color: #666666">+</span>sdate[<span style="color: #666666">0</span>:<span style="color: #666666">7</span>]<span style="color: #666666">+</span><span style="color: #BA2121">&quot;)&quot;</span>,fontsize<span style="color: #666666">=14</span>)
+
+<span style="color: #408080; font-style: italic">### Save and display the plot as a .png and save in high quality (dpi=600)###</span>
+    plt<span style="color: #666666">.</span>savefig(<span style="color: #BA2121">&quot;E://Model_Plots/xnsbh/ONDJ_&quot;</span> <span style="color: #666666">+</span>expname<span style="color: #666666">+</span><span style="color: #BA2121">&quot;.png&quot;</span>,dpi<span style="color: #666666">=600</span>,bbox_inches <span style="color: #666666">=</span> <span style="color: #BA2121">&#39;tight&#39;</span>)
+</pre></div>
+<br>
+<p> The resultant script produces the figure [below].
+<br>
+<img src="./Images/Project/ONDJ_xnsbh.png" style="width:100%">
+<h5 align="center">  </h5>
+<p class="w3-justify"> <font size="-1"> <strong><i> Figure 4. </strong>UM-UKCA monthly AOD plots (10 Tg-SO<sub>2</sub>-emissions Agung-free-running) showing the initial four-month global distribution of the volcanic aerosol. Top left: October 2000,
+  top right: November 2000, bottom left: December 2000, bottom right: January 2001. </font>
+ </i> </strong> </p>
+<p class="w3-justify"> <a href="models.html" style="color:blue"> Click Here</a> to view the other model runs and other scripts.
+ </p>
+
+
+</section>
+</section>
+
+</body>
+<hr style="border: 0px solid black"/>​
+
+<!--------------------- Footer -------------------->
+<footer>
+
+
+<style>
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 1px 1px;
+  text-align: center;
+  }
+</style>
+
+<div class="footer">
+      <img src="./Images/logo.PNG" title="University of Leeds" alt="uni" align="right" height="50"  </img>
+      <p  align="left" style="font-size:70%;" class="w3-opacity"> E-mail: <b>ee18yb@leeds.ac.uk</b> <br /> Address: <b>School of Earth and Environment, University of Leeds </b> <br/> <b>Leeds, LS2 9JT, United Kingdom </b> </p>
+  </div>
+
+</footer>
+
+
+</html>

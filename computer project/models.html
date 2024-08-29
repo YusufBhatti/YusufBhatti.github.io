@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+<title>Yusuf Bhatti's Model Runs</title>
+<!-- Import images for the header and numbered  -->
+<header>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 11</div>
+      <img src="./Images/IMG_1386.JPG" style="width:100%" height="300" title="Salt Flats, Utah">
+      <div class="text">Salt Flats, Utah</div>
+    </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 11</div>
+    <img src="./Images/IMG_0302.JPG" style="width:100%" height="300" title="Novalja, Croatia">
+    <div class="text">Novalja, Croatia</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 11</div>
+    <img src="./Images/IMG_1172.JPG" style="width:100%" height="300" title="Canyonlands, Utah">
+    <div class="text">Canyonlands, Utah</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 11</div>
+    <img src="./Images/IMG_1553.JPG" style="width:100%" height="300" title="Lipari, Italy">
+    <div class="text">Lipari, Italy</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 11</div>
+    <img src="./Images/IMG_0015.JPG" style="width:100%" height="300" title="Novalja, Croatia">
+    <div class="text">Novalja, Croatia</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 /11</div>
+    <img src="./Images/IMG_2125.JPG" style="width:100%" height="300" title="Bear Lake, Colorado">
+    <div class="text">Bear Lake, Colorado</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 11</div>
+    <img src="./Images/IMG_2920.JPG" style="width:100%" height="300" title="Mt. Etna, Italy">
+    <div class="text">Mt. Etna, Italy</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 11</div>
+    <img src="./Images/IMG_3325.JPG" style="width:100%" height="300" title="Salt Lake City, Utah">
+    <div class="text">Salt Lake City, Utah</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 11</div>
+    <img src="./Images/IMG_3328.JPG" style="width:100%" height="300" title="Isle of Skye, Scotland">
+    <div class="text">Isle of Skye, Scotland</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 11</div>
+    <img src="./Images/IMG_4070.JPG" style="width:100%" height="300" title="Red Rock Canyon, Nevada" >
+    <div class="text">Red Rock Canyon, Nevada</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 11</div>
+    <img src="./Images/IMG_8807.JPG" style="width:100%" height="300" title="Preikestolen, Norway">
+    <div class="text">Preikestolen, Norway</div>
+  </div>
+
+  </div>
+<style>
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  img {vertical-align: middle;}
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+  /* the side bar for contents */
+  .sidenav {
+    height: 100%;
+    width: 25%x;
+    top: 40px;
+    left: 1px;
+    background-color: black;
+    padding-top: 0px;
+  }
+
+  .sidenav a {
+
+    font-size: 14px;
+    color: black;
+    display: block;
+  }
+
+
+  </style>
+
+
+
+
+
+<script>
+
+  // Automatic Slideshow - change image every 3 seconds
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 6000);
+  }
+  </script>
+
+</header>
+
+<body style="background: linear-gradient(to right, rgba(147,184,116,0), rgba(147,184,116,1));">
+<!-- Navigation -->
+<nav class="w3-bar w3-black" hr style="border: 6px solid black"​>
+  <a href="http://homepages.see.leeds.ac.uk/~ee18yb" class="w3-button w3-bar-item">Home</a>
+  <a href="research.html" class="w3-button w3-bar-item">Research</a>
+  <a href="scripts.html" class="w3-button w3-bar-item">Scripts</a>
+  <a href="models.html" class="w3-button w3-bar-item">Model Runs</a>
+  <a href="https://environment.leeds.ac.uk/atmospheric-chemistry-aerosols/doc/aerosols-climate" class="w3-button w3-bar-item">Aerosol Research Group</a>
+
+</nav>
+<!-- Side bar Navigation/content -->
+<nav  class="sidenav"​>
+  <h2 align="center" style="color:white">Contents </h2>
+<a href="#Mon20Tg" class="w3-button w3-bar-item">Monthly AOD 20 Tg</a>
+<a href="#Mon10Tg" class="w3-button w3-bar-item">Monthly AOD 10 Tg</a>
+<a href="#RF_10" class="w3-button w3-bar-item">Monthly Radiative Forcing 10 Tg</a>
+<a href="#Dai10Tg" class="w3-button w3-bar-item">Daily AOD 10 Tg</a>
+<a href="#20v10" class="w3-button w3-bar-item">Comparison of AOD </a>
+
+
+</nav>
+
+<section class="w3-container w3-content" style="max-width:65%">
+  <h2 class="w3-wide">Yusuf Bhatti - Model Plots </h2>
+  <p1 class="w3-opacity"><i>Master of Research Student in Climate and Atmospheric Science </i> </p1>
+  <!-- Description of model plots -->
+  <hr style="border: 2px solid black"  />
+  <p class="w3-justify"> For the computer project, I have produced climate model plots [below] which have been run on the UM-UKCA (more details can be seen in the 'Scripts' or 'Research' section). The following model plots are visualising different magnitude eruptions from Mt Agung, releasing 10 and 20 Tg SO<sub>2</sub> into
+    the stratosphere (@ 21-23 km altitude). AOD stands for Aerosol Optical Depth, which measures how much visible and infrared light is reflected
+     and absorbed by the atmosphere due to the presence of aerosols. Aerosol particles can include: windblown dust, volcanic ash/aerosol, wildfire
+     smoke and sea salt. The focus of this research is solely volcanic aerosol. When the AOD is less than 0.1, a maximum visibility with clear skys are present.
+      If the AOD is ~1, the conditions can be very hazy. <br><br>
+The monthly data set takes the monthly mean value, the daily data set takes the daily mean. Therefore, the daily measurements demonstrate a much greater
+ variation in global distribution.
+
+ The optic depth is at the wavelength 550 nm for the initial 13 months after the eruption.
+</p>
+<!-- import and describe each image -->
+
+  <h3> <a name="Mon20Tg"> <strong> Monthly AOD @ 20 Tg SO<sub>2</sub></strong> </h3>
+
+  <img src="./Images/Project/monthly_20.gif" style="width:100%">
+  <h5 align="center"></h5>
+  <p class="w3-justify"> <font size="-1"> <strong><i> Figure 1. </strong>UM-UKCA monthly AOD video illustration, following the injection of SO<sub>2,</sub> of the initial global distribution of volcanic aerosol (October 2000 – November 2001)
+    (20 Tg SO<sub>2</sub>-emissions Agung-free-running). </i> </font></p>
+  <p class="w3-justify"> To download the python script <a href="./scripts/xnsbi_monthly_video.py" style="color:blue" download>(Click Here)</a> and the data
+    files <a href="./scripts/xnsbi_monthlyAOD.zip" style="color:blue" download>(Click Here)</a>
+    for Figure 1, go to the scripts page for detailed instructions. </p>
+
+
+    <hr style="border: 2px solid black" />
+    <img src="./Images/Project/ONDJ_xnsbi.png"  style="width:100%">
+    <h5 align="center"> <h5>
+    <p class="w3-justify"> <font size="-1"> <strong><i> Figure 2. </strong>UM-UKCA monthly AOD plots (20 Tg SO<sub>2</sub>-emissions Agung-free-running) showing the
+      initial four-month global distribution of the volcanic aerosol. Top left: October 2000, top right:
+      November 2000, bottom left: December 2000, bottom right: January 2001. </font>
+     </i> </strong> </p>
+
+    <p class="w3-justify"> To download the python script <a href="./scripts/ONDJ_xnsbi.py" style="color:blue" download>(Click Here)</a> and the data
+       files <a href="./scripts/xnsbi_monthlyAOD.zip" style="color:blue" download>(Click Here)</a>
+      for Figure 2, go to the scripts page for detailed instructions. </p>
+
+    <hr style="border: 2px solid black" />
+    <hr style="border: 2px solid black" />
+    <h3> <a name="Mon10Tg"> <strong> Monthly AOD @ 10 Tg SO<sub>2</sub> </strong> </h3>
+
+  <img src="./Images/Project/monthly_10.gif"  style="width:100%">
+  <h5 align="center"> <strong><i> </h5>
+  <p class="w3-justify"> <font size="-1"> Figure 3. </strong>UM-UKCA monthly AOD video illustration, following the injection of SO<sub>2,</sub> of the initial global distribution of volcanic aerosol
+     (October 2000 – November 2001) (10 Tg SO<sub>2</sub>-emissions Agung-free-running). </font>
+   </i> </strong> </p>
+  <p class="w3-justify"> To download the python script <a href="./scripts/xnsbh_monthly_video.py" style="color:blue" download>(Click Here)</a> and the data
+     files <a href="./scripts/xnsbh_monthlyAOD.zip" style="color:blue" download>(Click Here)</a>
+    for Figure 3, go to the scripts page for detailed instructions. </p>
+
+  <hr style="border: 2px solid black" />
+  <img src="./Images/Project/ONDJ_xnsbh.png"  style="width:100%">
+  <h5 align="center">  </h5>
+  <p class="w3-justify"> <font size="-1"> <strong><i> Figure 4. </strong>UM-UKCA monthly AOD plots (10 Tg-SO<sub>2</sub>-emissions Agung-free-running) showing the initial four-month global distribution of the volcanic aerosol. Top left: October 2000,
+    top right: November 2000, bottom left: December 2000, bottom right: January 2001. </font>
+   </i> </strong> </p>
+  <p class="w3-justify"> To download the python script <a href="./scripts/ONDJ_xnsbh.py" style="color:blue" download>(Click Here)</a> and the data
+     files <a href="./scripts/xnsbh_monthlyAOD.zip" style="color:blue" download>(Click Here)</a>
+    for Figure 4, go to the scripts page for detailed instructions. </p>
+
+    <hr style="border: 2px solid black" />
+    <h3> <a name="RF_10"> <strong> Monthly Radiative Forcing Effects @ 10 Tg SO<sub>2</sub></strong> </h3>
+    <img src="./Images/Project/RF_Comparison_all.png"  style="width:100%">
+    <h5 align="center"> </h5>
+    <p class="w3-justify"> <font size="-1"> <strong><i> Figure 5. </strong>UM-UKCA monthly radiative forcing effects from the volcanic eruption (10 Tg SO<sub>2</sub>-emissions Agung-free-running). The effects were calculated from
+      subtracting the total top of the atmosphere outgoing radiative flux from the perturbed stratosphere from ‘normal’ conditions (non-perturbed). GMOR = Global
+       Mean Outgoing Radiation. For a comparison, Mt Pinatubo injected 14-20 Tg SO<sub>2</sub> and led to a 3-month mean radiative forcing peak of -3 W/m<sup>2</sup> and Tambora had a radiative
+        forcing peak of 6.1 W/m<sup>2</sup> (Self et al., 2004; Schmidt et al., 2018).</font> </i> </strong> </p>
+    <p class="w3-justify"> To download the python script <a href="./scripts/Radiative_Forcing_xnsbh_ONDJ.py" style="color:blue" download>(Click Here)</a> and the data
+      files <a href="./scripts/xnsbh_Radiative_Forcing.zip" style="color:blue" download>(Click Here - xnsbh)</a> <a href="./scripts/xnsbg_Radiative_Forcing.zip" style="color:blue" download>(Click Here - xnsbg)</a>
+      for Figure 5, go to the scripts page for detailed instructions. </p>
+
+      <hr style="border: 2px solid black" />
+      <h3> <a name="Dai10Tg"> <strong> Daily AOD @ 10 Tg SO<sub>2</sub></strong> </h3>
+      <img src="./Images/Project/daily_10.gif"  style="width:100%">
+      <h5 align="center"> </h5>
+      <p class="w3-justify"> <font size="-1"> <strong><i> Figure 6. </strong> UM-UKCA daily AOD video illustration, following the injection of SO<sub>2,</sub> of the initial global distribution of volcanic aerosol
+        (October 2000 – November 2001) (10 Tg SO<sub>2</sub>-emissions Agung-free-running). </font>  </i> </strong> </p>
+      <p class="w3-justify"> To download the python script <a href="./scripts/xnsbh_daily_video.py" style="color:blue" download>(Click Here)</a> and the data
+        files <a href="./scripts/xnsbh_dailyAOD.zip" style="color:blue" download>(Click Here)</a>
+        for Figure 6, go to the scripts page for detailed instructions. </p>
+
+        <hr style="border: 2px solid black" />
+        <img src="./Images/Project/Daily_14days_8xnsbh.png"  style="width:100%">
+        <h5 align="center"> </h5>
+        <p class="w3-justify"> <font size="-1"> <strong><i> Figure 7. </strong>UM-UKCA daily AOD plots (10 Tg-SO<sub>2</sub>-emissions Agung-free-running) showing the initial daily global distribution
+          of the volcanic aerosol, at 14-day intervals. </font> </i> </strong> </p>
+        <p class="w3-justify"> To download the python script <a href="./scripts/Daily_xnsbh_A.py" style="color:blue" download>(Click Here)</a> and the data
+          files <a href="./scripts/xnsbh_dailyAOD.zip" style="color:blue" download>(Click Here)</a>
+          for Figure 7, go to the scripts page for detailed instructions. </p>
+
+          <hr style="border: 2px solid black" />
+          <h3> <a name="20v10"> <strong> Comparison of AOD Between Monthly 20 Tg and 10 Tg SO<sub>2</sub> Injection </strong> </h3>
+          <img src="./Images/Project/ONDJ_Intensity_xnsbi.png"  style="width:49.5%">
+          <img src="./Images/Project/ONDJ_Intensity_xnsbh.png" style="width:49.5%">
+          <h5 align="center"> </h5>
+          <p class="w3-justify"> <font size="-1"> <strong><i> Figure 8. </strong>Comparison of UM-UKCA monthly AOD plots between 20 Tg (left) and 10 Tg (right) SO<sub>2</sub> showing the initial global
+             distribution of the volcanic aerosol. Top: November 2000, bottom: February 2001. </font> </i> </strong> </p>
+
+          <hr style="border: 2px solid black" />
+          <hr style="border: 2px solid black" />
+
+
+          <h3> <b> References </h3><a name="References"></a> </b>
+            <p class="w3-justify">
+               <li> Schmidt, A., Mills, M., Ghan, S., Gregory, J., Allan, R., Andrews, T., Bardeen, C., Conley, A., Forster, P., Gettelman, A., Portmann, R., Solomon,
+                  S. and Toon, O. 2018. Volcanic Radiative Forcing From 1979 to 2015. <i>Journal of Geophysical Research: Atmospheres,</i> <b>123</b>(22), pp.12,491-12,508.
+               <li> Self, S., Gertisser, R., Thordarson, T., Rampino, M. and Wolff, J. 2004. Magma volume, volatile emissions, and stratospheric aerosols from the 1815 eruption
+                  of Tambora. <i> Geophysical Research Letters,</i> <b>31</b>(20).</p>
+
+
+</section>
+
+<nav  class="sidenav"​>
+  <h2 align="center" style="color:white">Contents </h2>
+<a href="#Mon20Tg" class="w3-button w3-bar-item">Monthly AOD 20 Tg</a>
+<a href="#Mon10Tg" class="w3-button w3-bar-item">Monthly AOD 10 Tg</a>
+<a href="#RF_10" class="w3-button w3-bar-item">Monthly Radiative Forcing 10 Tg</a>
+<a href="#Dai10Tg" class="w3-button w3-bar-item">Daily AOD 10 Tg</a>
+<a href="#20v10" class="w3-button w3-bar-item">Comparison of AOD </a>
+
+
+
+</nav>
+
+<hr style="border: 0px solid black"/>​
+
+
+</body>
+
+  <!--------------------- Footer -------------------->
+  <footer>
+
+
+  <style>
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1px 1px;
+    text-align: center;
+    }
+  </style>
+
+  <div class="footer">
+        <img src="./Images/logo.PNG" title="University of Leeds" alt="uni" align="right" height="50"  </img>
+        <p  align="left" style="font-size:70%;" class="w3-opacity"> E-mail: <b>ee18yb@leeds.ac.uk</b> <br /> Address: <b>School of Earth and Environment, University of Leeds </b> <br/> <b>Leeds, LS2 9JT, United Kingdom </b> </p>
+    </div>
+
+  </footer>
+
+
+  </html>
