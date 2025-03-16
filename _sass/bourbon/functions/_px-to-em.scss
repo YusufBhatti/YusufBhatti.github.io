@@ -4,7 +4,7 @@
 
 @function em($pxval, $base: $em-base) {
   @if not unitless($pxval) {
-    $pxval: strip-units($pxval);
+    @if not is-unitless($pxval) {
   }
   @if not unitless($base) {
     $base: strip-units($base);
