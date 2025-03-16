@@ -88,7 +88,7 @@ pre code.hljs {
 	&.has-cover {
 		color: $white;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
-		background-position: 50% 70%;
+		background-position: 50% 60%;
 		background-size: cover;
 		.title {
 			font-size: modular-scale(6);
@@ -103,7 +103,7 @@ pre code.hljs {
 			background-color: rgba(0,0,0,0.2);
 			padding: 8em 1em !important;
 			@include media($tablet) {
-				padding: 16em 1em !important;
+				padding: 14em 1em !important;
 			}
 		}
 	}

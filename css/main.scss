@@ -11,3 +11,7 @@
   "neat/neat",
   "layout"
 ;
+
+#cover-photo {
+  transition: background-image 1s ease-in-out; /* Smooth transition */
+}

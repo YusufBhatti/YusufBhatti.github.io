@@ -14,13 +14,13 @@ subtitle: "Research Scientist"
 email: y.bhatti@sron.nl
 name: Yusuf Bhatti
 description: >
-  
+
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-cover: "/assets/Mountain.jpg"
+# cover: "/assets/Mountain.jpg"
 logo: "/assets/Home_Button.png"
 
 # Build settings

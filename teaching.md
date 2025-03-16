@@ -1,9 +1,15 @@
 ---
 layout: page
-title: "Projects"
-permalink: /projects/
+title: "Teaching"
+permalink: /teaching/
 main_nav: true
 ---
+
+PHYS111
+GEOL111
+GEOL2
+PHYS3..
+PHYS5...
 
 {% for category in site.categories %}
   {% capture cat %}{{ category | first }}{% endcapture %}
