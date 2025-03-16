@@ -68,38 +68,20 @@ descriptions:
 #
 # Example:
 #
-# social:
-#   - name: Twitter                         # Name of the service
-#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-#     username: "@TheBenCentra"             # (User) Name to display in the footer link
-#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
-#     desc: Follow me on Twitter            # Description to display as link title, etc
-#     share: true                           # Include in the "Share" section of posts
-social:
-  # - name: Twitter
-  #   icon: twitter
-  #   username: TheBenCentra
-  #   url: https://twitter.com/TheBenCentra
-  #   desc: Follow me on Twitter
-  #   share: true
 
-  # - name: Facebook
-  #   icon: facebook
-  #   username: thebencentra
-  #   url: ""
-  #   desc: Friend me on Facebook
-  #   share: true
+social:
+
 
   - name: GitHub
     icon: github
-    username: bencentra
+    username: Yusuf Bhatti
     url: https://github.com/YusufBhatti
     desc: GitHub
     share: true
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
+    username: Yusuf Bhatti
     url: https://www.linkedin.com/YusufBhatti
     desc: Connect with me on LinkedIn
     share: true
@@ -198,6 +180,6 @@ protocols:
 
     twitter_image: "/assets/logo.png"
 
-    os_repo: "https://github.com/bencentra/centrarium.com"
+    os_repo: "YusufBhatti.com"
     os_rcs_type: "git"
-    os_src: "git@github.com:bencentra/centrarium.com.git"
+    os_src: "https://github.com/YusufBhatti/YusufBhatti.github.io"

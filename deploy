@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Build the site
+bundle exec jekyll build
+
+# Deploy to GitHub Pages
+cd _site
+git init
+git checkout -b main
+git add -A
+git commit -m "Deploy site"
+git remote add origin https://github.com/your-username/your-repo-name.git
+git push -f origin main
+
+echo "Site deployed!"
