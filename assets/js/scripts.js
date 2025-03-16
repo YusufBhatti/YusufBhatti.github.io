@@ -1,12 +1,12 @@
 const covers = [
   "/assets/Mountain.jpg",
+  "/assets/Abel.jpg",
   "/assets/Beach.jpg",
   "/assets/Glaciers.jpg",
   "/assets/Sunrise.jpg",
   "/assets/geology.JPG",
   "/assets/stars.jpg",
-  "/assets/canyon.JPG",
-  "/assets/Abel.jpg"
+  "/assets/canyon.JPG"
 
 ];
 
