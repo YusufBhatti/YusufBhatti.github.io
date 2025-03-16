@@ -21,7 +21,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 cover: "/assets/Mountain.jpg"
-logo: "/assets/logo.png"
+logo: "/assets/Home_Buttom.png"
 
 # Build settings
 markdown: kramdown
@@ -47,7 +47,6 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-# disqus_shortname: bencentra
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
