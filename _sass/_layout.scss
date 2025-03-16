@@ -88,7 +88,7 @@ pre code.hljs {
 	&.has-cover {
 		color: $white;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.67) !important;
-		background-position: 50% 50%;
+		background-position: 50% 70%;
 		background-size: cover;
 		.title {
 			font-size: modular-scale(6);
@@ -101,9 +101,9 @@ pre code.hljs {
 		padding: 3em 1em;
 		&.has-cover {
 			background-color: rgba(0,0,0,0.2);
-			padding: 6em 1em !important;
+			padding: 8em 1em !important;
 			@include media($tablet) {
-				padding: 9em 1em !important;
+				padding: 16em 1em !important;
 			}
 		}
 	}
@@ -199,13 +199,16 @@ pre code.hljs {
   	a {
 	    display: inline-block;
 	    @include media ($tablet) {
-	      padding-right: 1.5em;
+	      padding-right: 2em;
+				font-weight: bold;
+
 	    }
 	  }
 	  &:last-child a {
 	  	@include media ($tablet) {
-    		padding-right: 1em;
+    		padding-right: 2em;
     	}
+
     }
   }
 }

@@ -14,7 +14,7 @@ subtitle: "Research Scientist"
 email: y.bhatti@sron.nl
 name: Yusuf Bhatti
 description: >
-  TEST
+  
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -30,12 +30,12 @@ highlightjs_theme: "monokai-sublime"
 
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
-# pagination:
-#   enabled: false
-#   per_page: 5
-#   permalink: "/page/:num/"
-#   sort_reverse: true
-
+pagination:
+  enabled: false
+  # per_page: 5
+  # permalink: "/page/:num/"
+  # sort_reverse: true
+  #
 
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
@@ -75,14 +75,14 @@ social:
 
   - name: GitHub
     icon: github
-    username: Yusuf Bhatti
+    username: github.com/YusufBhatti
     url: https://github.com/YusufBhatti
     desc: GitHub
     share: true
 
   - name: LinkedIn
     icon: linkedin
-    username: Yusuf Bhatti
+    username: linkedin.com/YusufBhatti
     url: https://www.linkedin.com/YusufBhatti
     desc: Connect with me on LinkedIn
     share: true
