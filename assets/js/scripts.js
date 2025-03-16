@@ -24,4 +24,4 @@ function rotateCover() {
   coverElement.style.backgroundImage = `url('${covers[currentCover]}')`;
 }
 
-setInterval(rotateCover, 5000);
+setInterval(rotateCover, 20000);
