@@ -5,7 +5,7 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 // Includes Bourbon, Neat, and Bitters (thanks, thoughtbot!)
-@use "bourbon/bourbon";
-@use "base/base";
-@use "neat/neat";
-@use "layout";
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
+@import "layout";
