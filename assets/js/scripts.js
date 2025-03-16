@@ -4,9 +4,9 @@ const covers = [
   "/assets/Beach.jpg",
   "/assets/Glaciers.jpg",
   "/assets/Sunrise.jpg",
-  "/assets/geology.JPG",
+  // "/assets/geology.JPG",
   "/assets/stars.jpg",
-  "/assets/canyon.JPG"
+  // "/assets/canyon.JPG"
 
 ];
 
@@ -24,4 +24,4 @@ function rotateCover() {
   coverElement.style.backgroundImage = `url('${covers[currentCover]}')`;
 }
 
-setInterval(rotateCover, 20000);
+setInterval(rotateCover, 1000);
