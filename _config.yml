@@ -89,7 +89,7 @@ social:
     share: true
 
   - name: Google Scholar
-    icon: google-scholar
+    icon: google-plus
     username: "Google Scholar"
     url: "https://scholar.google.com/citations?user=G7Si4kEAAAAJ&hl=en"
     share: true

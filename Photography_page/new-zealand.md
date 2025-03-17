@@ -1,7 +1,7 @@
 ---
 layout: page
 title: New Zealand
-permalink: /photography/new-zealand/
+permalink: /photography/travelling/new-zealand/
 ---
 
 <a href="hiking-trips.md">Hiking Trips</a>
