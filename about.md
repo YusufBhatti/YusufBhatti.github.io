@@ -8,18 +8,57 @@ main_nav: true
 ![alt text]({{ site.baseurl }}/assets/Yusuf_Headshot.jpg){:.profile}
 
 <div class="about-section">
+  <h1>About Me</h1>
   <p>
-    I'm an atmospheric physicist that works on developing aerosol-cloud interactions in climate models. I currently work at SRON Space Research Organization Netherlands as a research scientist. My PhD was in atmospheric physics and chemistry supervised by Laura Revell and Adrian McDonald at the University of Canterbury (New Zealand).
+    I'm an atmospheric physicist specializing in developing <a href="/research">aerosol-cloud interactions</a> in climate models. Currently, I work as a research scientist at <strong>SRON Space Research Organization Netherlands</strong>. My expertise lies in developing aerosol-cloud interactions within climate models and the application of machine learning/AI in climate modeling.
   </p>
   <p>
-    I specialize in aerosol-cloud interactions, and machine learning/AI applications in climate models. Most of my research has been on improving the representation of aerosols in climate models through observations (satellite, ships, aircraft, stations, etc).
+    My research focuses on improving the representation of aerosols in climate models through observations from satellites, ships, aircraft, and ground stations. I completed my PhD in atmospheric physics and chemistry at the <strong>University of Canterbury</strong> (New Zealand), under the supervision of <strong>Laura Revell</strong> and <strong>Adrian McDonald</strong>.
   </p>
-
   <p>
-    From living in four countries, I've enjoyed a very culturally immersive and adaptive life. I try to capture many of these moments and showcase my travels through photography. Some of these photos can be seen in my <a href="/photography">Photography</a> section.
+    Having lived in four countries, I've embraced a culturally immersive and adaptive lifestyle. I enjoy capturing these experiences through photography, and some of my work can be found in my <a href="/photography">photography</a> section.
   </p>
 </div>
 
+<style>
+  /* Styling for the About Me Section */
+  .about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    color: #333;
+  }
+
+  .about-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #222;
+    text-align: center;
+  }
+
+  .about-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #444;
+  }
+
+  .about-section a {
+    color: #87CEEB; /* Sky blue */
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .about-section a:hover {
+    text-decoration: underline;
+  }
+
+  .about-section strong {
+    color: #222;
+    font-weight: bold;
+  }
+</style>
 <div class="experience-section">
   <h1>Work Experience</h1>
   <div class="experience-item">
