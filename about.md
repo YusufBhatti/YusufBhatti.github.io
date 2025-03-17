@@ -16,10 +16,9 @@ main_nav: true
   </p>
 
   <p>
-    From living in four countries, I've enjoyed a very culturally immersive and adaptive life. I try to capture many of these moments and showcase my travels through photography. Some of these photos can be seen in the <a href="/photography">Photography</a> section.
+    From living in four countries, I've enjoyed a very culturally immersive and adaptive life. I try to capture many of these moments and showcase my travels through photography. Some of these photos can be seen in my <a href="/photography">Photography</a> section.
   </p>
 </div>
-
 
 <div class="experience-section">
   <h1>Work Experience</h1>
@@ -30,7 +29,7 @@ main_nav: true
     <p>
     Climate models, such as ECHAM6-HAM and ICON-HAM, are essential for understanding past and future climate changes. However, significant uncertainties remain, particularly regarding aerosols and clouds. My work focuses on mitigating these uncertainties by integrating new satellite observations from missions like PACE and Earth-Care.
 To achieve this, I developed a perturbed parameter ensemble (PPE) consisting of over 221 simulations with slight variations in parameter configurations. Using this PPE as a training set, I apply machine learning techniques to emulate millions of additional simulations efficiently. This approach enables us to pinpoint sources of uncertainty, validate model outputs against observations, and refine the representation of aerosol-cloud interactions in climate models.
-From living in four countries, I've enjoyed a very culturally immersive and adaptive life. I try to capture many of these moments and showcase my travels through photography. Some of these photos can be seen in my <a href="/photography">Photography</a> section.
+By combining satellite data and advanced machine learning, my research aims to enhance the accuracy and reliability of climate projections, contributing to a deeper understanding of aerosol and cloud impacts on the Earth's climate system.
 
 </p>
 
