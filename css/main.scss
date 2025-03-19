@@ -61,3 +61,17 @@
   height: auto;
   border-radius: 8px;
 }
+
+@media (max-width: 768px) {
+  .fieldwork-gallery .albums {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .fieldwork-gallery h2 {
+    font-size: 2em;
+  }
+
+  .fieldwork-gallery .album h3 {
+    font-size: 1em;
+  }
+}

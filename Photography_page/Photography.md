@@ -22,7 +22,7 @@ main_nav: true
       <!-- Field Work Album -->
       <div class="project-item">
         <a href="{{ '/photography/field-work' | relative_url }}">
-          <img src="{{ '/assets/Italy/cover.jpg' | relative_url }}" alt="Field Work">
+          <img src="{{ '/assets/Field-work/Italy/Etna/cover.jpg' | relative_url }}" alt="Field Work">
           <h3>Field Work</h3>
         </a>
       </div>
@@ -30,7 +30,7 @@ main_nav: true
       <!-- Travelling Album -->
       <div class="project-item">
         <a href="{{ '/photography/travelling' | relative_url }}">
-          <img src="{{ '/assets/Switzerland/ski_matterhorn.JPG' | relative_url }}" alt="Travelling">
+          <img src="{{ '/assets/Travelling/Australia/IMG_9823.jpeg' | relative_url }}" alt="Travelling">
           <h3>Travelling</h3>
         </a>
       </div>
