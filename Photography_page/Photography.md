@@ -8,7 +8,7 @@ main_nav: true
 
   <div class="photography">
     <!-- <h1>Photography</h1> -->
-    <p>Explore my photography albums from different activities.</p>
+    <p>Explore my photography albums from different activities. This section is still being worked on</p>
 
     <div class="project-grid">
       <!-- Hiking Trips Album -->
