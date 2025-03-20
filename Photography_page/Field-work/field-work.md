@@ -4,7 +4,9 @@ title: Field Work Experience
 permalink: /photography/field-work
 ---
 
-To see the galleries and a description of each field work, click on the image.
+I've been privileged to have over 100 days of fieldwork experience all over the world. I've tried to capture the feeling and experiences for all different trips below.
+
+Directories are all under construction.
 
 <div class="fieldwork-gallery">
   <h2>Field Work</h2>

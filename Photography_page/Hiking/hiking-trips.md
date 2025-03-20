@@ -6,6 +6,8 @@ permalink: /photography/hiking-trips
 
 <a href="hiking-trips.md">Hiking Trips</a>
 
+While I was living in New Zealand, I had an amazing opportunity to travel the amazing country and hike all around the stunning landscape (or more locally called 'Tramping'). Some of the tramps were multi-day, but most often were just 2 day in-and-out trips, staying in an alpine hut or tenting.
+
 <div class="fieldwork-gallery">
   <h2>Countries</h2>
 

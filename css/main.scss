@@ -28,6 +28,11 @@
   gap: 20px;
 }
 
+:target {
+  scroll-margin-top: 90px; /* Adjust this value as needed */
+}
+
+
 .album {
   flex: 1 1 calc(33.333% - 40px);
   text-align: center;
@@ -38,6 +43,15 @@
   height: auto;
   border-radius: 8px;
   transition: transform 0.3s ease;
+}
+
+.research-item .research-image {
+    width: 50%; /* Adjust this value as needed */
+    max-width: 500px; /* Ensures images don't get too large */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 .album img:hover {
