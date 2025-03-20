@@ -17,7 +17,7 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
 <div class="research-item">
 <h3>Constraining aerosol-cloud uncertainties in climate models using machine learning applications and the new NASA PACE and ESA EarthCARE satellite.</h3>
 
-  <img src="/assets/Main_Page/PACE_mission.jpg" alt="Aerosol-cloud interactions" class="research-image">
+  <img src="/assets/Main_page/PACE_mission.jpg" alt="Aerosol-cloud interactions" class="research-image">
   <p> </p>
   <ul>
   <li><strong>Aim:</strong> Reduce uncertainties in aerosol-cloud interactions using machine learning and next-generation satellite data.</li>
@@ -37,7 +37,7 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
   <div class="research-item">
   <h3>Quantifying aerosol-cloud interactions using machine learning applications to climate models</h3>
 
-    <img src="/assets/Main_Page/PPE_Observation_Comparison_2010.png" alt="Aerosol-cloud interactions" class="research-image">
+    <img src="/assets/Main_page/PPE_Observation_Comparison_2010.png" alt="Aerosol-cloud interactions" class="research-image">
     <ul>
     <li><strong>Aim:</strong> Quantify uncertainties in aerosol-cloud interactions and their impact on radiative forcing.</li>
     <li><strong>Methods:</strong> Developed a perturbed parameter ensemble (PPE) of 221 simulations in ECHAM6.3-HAM2.3, varying 25 key parameters.</li>
