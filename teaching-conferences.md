@@ -25,7 +25,8 @@ main_nav: true
 
 ## Grants and Awards
 
-- **2025** Surf HPC CPU and GPU High Compute Grant (~€50,000)  
+- **2025** Surf/NWO-i HPC CPU and GPU Large Compute Grant (~€60,000)  
+- **2024** Surf HPC CPU Small Compute Grant (~€15,000)  
 - **2023** UC Foundation Doctoral Publication Prize  
 - **2022** UC Foundation Doctoral Publication Prize  
 - **2021** Outstanding People's Choice Poster – Antarctica New Zealand Conference, Christchurch  
