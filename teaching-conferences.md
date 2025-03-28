@@ -49,9 +49,9 @@ main_nav: true
 
 - **2025** Presentation – American Meteorological Society, New Orleans  
 - **2024** Presentation – Aerocom/Aerosat, Lille  
-- **2023** Presentation – New Zealand Meteorological Society Conference, Wellington  
+- **2023** Presentation – New Zealand Meteorological Society Conference, Wellington
+- **2023** Presentation – European Geosciences Union (EGU), Vienna   
 - **2022** Poster – CATCH, Online Workshop
-- **2022** Presentation – European Geosciences Union (EGU), Vienna  
 - **2022** Presentation – Australian Meteorological and Oceanographic Society, Adelaide  
 - **2022** Presentation – International Conference on Southern Hemisphere Meteorology and Oceanography (ICSCHMO), Online  
 - **2021** Presentation & Poster – New Zealand Meteorological Society Conference, Dunedin  
