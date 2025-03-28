@@ -45,15 +45,6 @@
   transition: transform 0.3s ease;
 }
 
-.research-item .research-image {
-    width: 50%; /* Adjust this value as needed */
-    max-width: 500px; /* Ensures images don't get too large */
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 15px;
-}
-
 .album img:hover {
   transform: scale(1.05);
 }
