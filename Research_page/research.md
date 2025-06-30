@@ -65,10 +65,8 @@ Bhatti, Y.A., Revell, L.E., McDonald, A.J., Archibald, A.T., Schuddeboom, A.J., 
 
   <!-- UKESM1 model development -->
   <div class="research-item">
-  <h3>The sensitivity of Southern Ocean atmospheric dimethyl sulfide (DMS) to modeled oceanic DMS concentrations and emissions 
-  </h3>
+    <h3>The sensitivity of Southern Ocean atmospheric dimethyl sulfide (DMS) to modeled oceanic DMS concentrations and emissions </h3>
     <img src="/assets/Main_Page/Paper_2.png" alt="ccn" class="research-image">
-
 
 <ul>
 Bhatti, Y.A., Revell, L.E., Schuddeboom, A.J., McDonald, A.J., Archibald, A.T., Williams, J., Venugopal, A.U., Hardacre, C. and Behrens, E., 2023. The sensitivity of Southern Ocean atmospheric dimethyl sulfide (DMS) to modeled oceanic DMS concentrations and emissions. Atmospheric Chemistry and Physics, 23(24), pp.15181-15196.
