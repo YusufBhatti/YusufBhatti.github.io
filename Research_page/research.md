@@ -48,10 +48,9 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
 
   <!-- UKESM1 chemistry -->
   <div class="research-item">
-    <h3>Aerosol and Dimethyl Sulfide Sensitivity to Sulfate Chemistry Schemes
+    <h3>Aerosol and Dimethyl Sulfide Sensitivity to Sulfate Chemistry Schemes </h3>
     <img src="/assets/Main_page/Paper_3.png" alt="chemistry" class="research-image">
 
-</h3>
     <ul>
     <li><strong>Aim:</strong> Evaluate the sensitivity of sulfate aerosol to DMS oxidation pathways in CMIP6 models.</li>
     <li><strong>Methods:</strong> Implemented seven DMS and sulfate chemistry schemes in an atmosphere-only Earth system model.</li>
@@ -64,11 +63,11 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
 
   <!-- UKESM1 model development -->
   <div class="research-item">
-  <h3>The sensitivity of Southern Ocean atmospheric dimethyl sulfide (DMS) to modeled oceanic DMS concentrations and emissions
-
+  <h3>The sensitivity of Southern Ocean atmospheric dimethyl sulfide (DMS) to modeled oceanic DMS concentrations and emissions 
+  </h3>
     <img src="/assets/Main_Page/Paper_2.png" alt="ccn" class="research-image">
 
-</h3>
+
 <ul>
 <li><strong>Aim:</strong> Assess the sensitivity of atmospheric DMS to oceanic DMS datasets and transfer velocity parameterizations.</li>
 <li><strong>Methods:</strong> Conducted eight 10-year simulations using UKESM1-AMIP, testing four oceanic DMS datasets and three transfer velocity parameterizations.</li>
