@@ -15,13 +15,13 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
 
 
 <div class="research-item">
-<h3>Constraining aerosol-cloud uncertainties in climate models using machine learning applications and the new NASA PACE and ESA EarthCARE satellite.</h3>
-
+<!Constraining aerosol-cloud uncertainties in climate models using machine learning applications and the new NASA PACE and ESA EarthCARE satellite. !> 
+<h3>Constraining aerosol-cloud uncertainties in climate models using machine learning applications.</h3>
   <img src="/assets/Main_page/PACE_mission.jpg" alt="Aerosol-cloud interactions" class="research-image">
   <p> </p>
   <ul>
-  <li><strong>Aim:</strong> Reduce uncertainties in aerosol-cloud interactions using machine learning and next-generation satellite data.</li>
-  <li><strong>Methods:</strong> Leverage NASA PACE and ESA EarthCARE satellite observations to train machine learning models for improved climate simulations.</li>
+  <li><strong>Aim:</strong> Reduce uncertainties in aerosol-cloud interactions using machine learning emulators.</li>
+  <li><strong>Methods:</strong> Leverage observations to train machine learning models for improved climate simulations.</li>
   </ul>
   <!-- <p><em>Status: In preparation</em></p> -->
 </div>
