@@ -10,7 +10,7 @@ main_nav: true
 <div class="about-section">
   <h1>About Me</h1>
   <p>
-    I'm an atmospheric physicist specializing in developing <a href="/research">aerosol-cloud interactions</a> in climate models. Currently, I work as a research scientist at <strong>SRON Space Research Organization Netherlands</strong>. My expertise lies in developing aerosol-cloud interactions within climate models and the application of machine learning/AI in climate modeling.
+    I'm an atmospheric physicist specializing in developing <a href="/research">aerosol-cloud interactions</a> in climate models. Currently, I work as a research scientist at <strong>SRON Space Research Organization Netherlands</strong>, funded through <a href="https://projects.au.dk/cleancloud/cleancloud-project">EU Horizon CleanCloud </a>, with <strong>Otto Hasekamp</strong>. My expertise lies in developing aerosol-cloud interactions within climate models and the application of machine learning/AI in climate modeling.
   </p>
   <p>
     My research focuses on improving the representation of aerosols in climate models through observations from satellites, ships, aircraft, and ground stations. I completed my PhD in atmospheric physics and chemistry at the <strong>University of Canterbury</strong> (New Zealand), under the supervision of <strong>Laura Revell</strong> and <strong>Adrian McDonald</strong>.

@@ -25,6 +25,7 @@ main_nav: true
 
 ## Grants and Awards
 
+- **2025** National award from Dutch Government to attend the NASA PACE Hackathon, Baltimore 
 - **2025** Surf/NWO-i HPC CPU and GPU Large Compute Grant (~€60,000)  
 - **2024** Surf HPC CPU Small Compute Grant (~€15,000)  
 - **2023** UC Foundation Doctoral Publication Prize  
@@ -36,6 +37,7 @@ main_nav: true
 - **2018** Bronze Volunteer Award, Keele  
 
 ### Travel Grant
+ 
 - **2023** School of Physical and Chemical Sciences Travel Grant  
 - **2023** New Zealand Meteorological Society International Travel Grant
 - **2023** New Zealand Meteorological Society Domestic Travel Grant    
