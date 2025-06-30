@@ -10,7 +10,7 @@ main_nav: true
 <div class="about-section">
   <h1>About Me</h1>
   <p>
-    I'm an atmospheric physicist specializing in developing <a href="/research">aerosol-cloud interactions</a> in climate models. Currently, I work as a research scientist at <strong>SRON Space Research Organization Netherlands</strong>, funded through <a href="https://projects.au.dk/cleancloud/cleancloud-project">EU Horizon CleanCloud </a>, with <strong>Otto Hasekamp</strong>. My expertise lies in developing aerosol-cloud interactions within climate models and the application of machine learning/AI in climate modeling.
+    I'm an atmospheric physicist specializing in developing <a href="/research">aerosol-cloud interactions</a> in climate models. Currently, I work as a research scientist at <strong>SRON Space Research Organization Netherlands</strong>, funded through <a href="https://projects.au.dk/cleancloud/cleancloud-project">EU Horizon CleanCloud</a>, with <strong>Otto Hasekamp</strong>. My expertise lies in developing aerosol-cloud interactions within climate models and the application of machine learning/AI in climate modeling.
   </p>
   <p>
     My research focuses on improving the representation of aerosols in climate models through observations from satellites, ships, aircraft, and ground stations. I completed my PhD in atmospheric physics and chemistry at the <strong>University of Canterbury</strong> (New Zealand), under the supervision of <strong>Laura Revell</strong> and <strong>Adrian McDonald</strong>.
@@ -63,7 +63,7 @@ main_nav: true
   <h1>Work Experience</h1>
   <div class="experience-item">
     <h3> 2024 – Present</h3>
-    <h4>SRON Space Research Organization Netherlands</h4>
+    <h4>SRON Space Research Organization Netherlands (The Netherlands)</h4>
     <h5>Research Scientist</h5>
     <p>
     Climate models, such as ECHAM6-HAM and ICON-HAM, are essential for understanding past and future climate changes. However, significant uncertainties remain, particularly regarding aerosols and clouds. My work focuses on mitigating these uncertainties by integrating new satellite observations from missions like PACE and Earth-Care.
@@ -87,7 +87,7 @@ By combining satellite data and advanced machine learning, my research aims to e
     </p>
   </div>
   <div class="education-item">
-    <h3>University of Leeds</h3>
+    <h3>University of Leeds (UK)</h3>
     <h4>Master of Research in Climate and Atmospheric Chemistry and Physics</h4>
     <h5>Sept 2016 - Sept 2017</h5>
     <p>
@@ -98,7 +98,7 @@ By combining satellite data and advanced machine learning, my research aims to e
   </div>
 
   <div class="education-item">
-    <h3>University of Keele</h3>
+    <h3>University of Keele (UK)</h3>
     <h4>BSc(Hons) Geology with Physical Geography</h4>
     <h5>Sept 2015 - Sept 2018</h5>
     <p>
