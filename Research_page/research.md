@@ -43,7 +43,7 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
     <li><strong>Methods:</strong> Developed a perturbed parameter ensemble (PPE) of 221 simulations in ECHAM6.3-HAM2.3, varying 25 key parameters.</li>
     <li>Regional uncertainties in aerosol parameters contribute to regional uncertainties in aerosol radiative effects.</li>
     </ul>
-    <p><em>Status: In preparation</em></p>
+    <a href="https://doi.org/10.5194/egusphere-2025-2848" class="research-link">Read Manuscript</a>
   </div>
 
   <!-- UKESM1 chemistry -->
