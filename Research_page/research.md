@@ -40,7 +40,7 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
     <img src="/assets/Main_page/PPE_Observation_Comparison_2010.png" alt="Aerosol-cloud interactions" class="research-image">
     <ul>
     <li><strong>Aim:</strong> Quantify uncertainties in aerosol-cloud interactions and their impact on radiative forcing.</li>
-    <li><strong>Methods:</strong> Developed a perturbed parameter ensemble (PPE) of 221 simulations in ECHAM6.3-HAM2.3, varying 25 key parameters.</li>
+    <li><strong>Methods:</strong> Developed a perturbed parameter ensemble (PPE) of 221 simulations in ECHAM6.3-HAM2.3, varying 23 key parameters.</li>
     <li>Regional uncertainties in aerosol parameters contribute to regional uncertainties in aerosol radiative effects.</li>
     </ul>
     <a href="https://doi.org/10.5194/egusphere-2025-2848" class="research-link">Read Manuscript</a>
