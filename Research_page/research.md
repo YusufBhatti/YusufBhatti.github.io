@@ -39,6 +39,7 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
 
     <img src="/assets/Main_page/PPE_Observation_Comparison_2010.png" alt="Aerosol-cloud interactions" class="research-image">
     <ul>
+Bhatti, Y., Watson-Parris, D., Regayre, L., Jia, H., Neubauer, D., Im, U., Svenhag, C., Schutgens, N., Tsikerdekis, A., Nenes, A. and Muhammed, I., 2025. Uncertainty in aerosol effective radiative forcing from anthropogenic and natural aerosol parameters in ECHAM6. 3-HAM2. 3. EGUsphere, 2025, pp.1-35.
     <li><strong>Aim:</strong> Quantify uncertainties in aerosol-cloud interactions and their impact on radiative forcing.</li>
     <li><strong>Methods:</strong> Developed a perturbed parameter ensemble (PPE) of 221 simulations in ECHAM6.3-HAM2.3, varying 23 key parameters.</li>
     <li>Regional uncertainties in aerosol parameters contribute to regional uncertainties in aerosol radiative effects.</li>
@@ -52,6 +53,7 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
     <img src="/assets/Main_page/Paper_3.png" alt="chemistry" class="research-image">
 
     <ul>
+Bhatti, Y.A., Revell, L.E., McDonald, A.J., Archibald, A.T., Schuddeboom, A.J., Williams, J., Hardacre, C., Mulcahy, J. and Lin, D., 2024. Aerosol and dimethyl sulfide sensitivity to sulfate chemistry schemes. Journal of Geophysical Research: Atmospheres, 129(12), p.e2023JD040635.
     <li><strong>Aim:</strong> Evaluate the sensitivity of sulfate aerosol to DMS oxidation pathways in CMIP6 models.</li>
     <li><strong>Methods:</strong> Implemented seven DMS and sulfate chemistry schemes in an atmosphere-only Earth system model.</li>
     <li>The simulated spread in aerosol optical depth and cloud droplet number concentration is more than twice as large as the change from pre-industrial to present-day.</li>
@@ -69,6 +71,7 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
 
 
 <ul>
+Bhatti, Y.A., Revell, L.E., Schuddeboom, A.J., McDonald, A.J., Archibald, A.T., Williams, J., Venugopal, A.U., Hardacre, C. and Behrens, E., 2023. The sensitivity of Southern Ocean atmospheric dimethyl sulfide (DMS) to modeled oceanic DMS concentrations and emissions. Atmospheric Chemistry and Physics, 23(24), pp.15181-15196.
 <li><strong>Aim:</strong> Assess the sensitivity of atmospheric DMS to oceanic DMS datasets and transfer velocity parameterizations.</li>
 <li><strong>Methods:</strong> Conducted eight 10-year simulations using UKESM1-AMIP, testing four oceanic DMS datasets and three transfer velocity parameterizations.</li>
 <li>The choice of oceanic DMS dataset has a larger influence on atmospheric DMS than the choice of DMS transfer velocity.</li>
@@ -83,6 +86,7 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
     <img src="/assets/Main_page/Paper_1.png" alt="Ozone_Depletion" class="research-image">
 
     <ul>
+     Bhatti, Y.A., Revell, L.E. and McDonald, A.J., 2022. Influences of Antarctic ozone depletion on southern ocean aerosols. Journal of Geophysical Research: Atmospheres, 127(18), p.e2022JD037199.
     <li><strong>Aim:</strong> Investigate the impact of Antarctic ozone depletion on Southern Ocean aerosols.</li>
     <li><strong>Methods:</strong> Analyzed state-of-the-art Earth System Models to evaluate changes in aerosol fluxes and marine biogeochemical activity.</li>
     <li>Wind-driven Southern Ocean aerosol fluxes are influenced by the ozone hole during austral summer.</li>
