@@ -105,7 +105,7 @@ Bhatti, Y.A., Revell, L.E., Schuddeboom, A.J., McDonald, A.J., Archibald, A.T., 
       <li><strong>Aim:</strong> Simulate Southern Ocean DMS and marine aerosol production using an Earth System Model.</li>
       <li><strong>Methods:</strong> Developed and validated a model framework to simulate DMS emissions and their impact on marine aerosols.</li>
     </ul>
-    <a href="https://libcat.canterbury.ac.nz/Record/in1360920" class="research-link">Read PhD Thesis</a>
+    <a href="https://ir.canterbury.ac.nz/items/c6b82640-5663-46d8-8a60-cc3ebbe4e7a6" class="research-link">Read PhD Thesis</a>
   </div>
 
 

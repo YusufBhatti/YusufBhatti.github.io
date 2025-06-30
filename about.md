@@ -83,7 +83,7 @@ By combining satellite data and advanced machine learning, my research aims to e
     <h5>Feb 2020 - Dec 2023</h5>
 
     <p>
-      'Southern Ocean dimethyl sulfide and marine aerosol production simulated with an Earth system model’. Supervised by Laura Revell and Adrian McDonald
+      <a href="https://ir.canterbury.ac.nz/items/c6b82640-5663-46d8-8a60-cc3ebbe4e7a6">'Southern Ocean dimethyl sulfide and marine aerosol production simulated with an Earth system model’</a>. Supervised by Laura Revell and Adrian McDonald
     </p>
   </div>
   <div class="education-item">
