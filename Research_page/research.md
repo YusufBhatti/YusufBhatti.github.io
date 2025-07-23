@@ -4,17 +4,103 @@ title: "Research"
 permalink: /research/
 main_nav: true
 ---
-To see my past publications, see <a href="#past-publications">my Past Lead Author Publications and Research</a>, below.
+You can also visit my <a href="https://scholar.google.com/citations?user=G7Si4kEAAAAJ&hl=en">google scholar</a> or visit my <a href="https://orcid.org/0000-0003-1254-9845">ORCID record</a> 
 
-Also to see the research I have co-authored, see <a href="https://scholar.google.com/citations?user=G7Si4kEAAAAJ&hl=en">my google scholar</a>.
 
-See <a href="Coding-Development.md">Coding Development</a> for model development, software development, and other projects involved in doing these publications.
+<!-- See <a href="Coding-Development.md">Coding Development</a> for model development, software development, and other projects involved in doing these publications. -->
+For a more in-depth look into my past projects, see <a href="#past-publications-overview"> the overview of previous research section</a>
+
+
+<!-- <h3 id="publications">Past Lead Author Publications and Research</h3> -->
+
+<a id="publications"></a>
+<h3 id="publications">Publications and Journal Articles</h3>
+<div class="research-list">
+
+<h4>Lead Author Publications</h4>
+<ul class="pub-list">
+  <li>
+    <strong>Bhatti, YA.,</strong> Watson-Parris, D., Regayre, L., Jia, H., Neubauer, D., Im, U., Svenhag, C., Schutgens, N., Tsikerdekis, A., Nenes, A., Muhammed, I., van Diedenhoven, B., Arifi, A., Fu, G., Hasekamp, O. (2025). 
+    <a href="https://doi.org/10.5194/egusphere-2025-2848">
+      Uncertainty in aerosol effective radiative forcing from anthropogenic and natural aerosol parameters in ECHAM6.3-HAM2.3.</a> <em>EGUsphere [in-review]</em>, 2025, 1-35.
+  </li>
+  
+  <li>
+  <strong>Bhatti, YA.,</strong> Revell, LE., McDonald, AJ., Archibald, AT., Schuddeboom, AJ., Williams, J., Hardacre, C., Mulcahy, J., Lin, D. (2024). 
+  <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023JD040635"> Aerosol and dimethyl sulfide sensitivity to sulfate chemistry schemes.</a> <em>Journal of Geophysical Research: Atmospheres</em>, 129(12), e2023JD040635.
+</li>
+
+  <li>
+    <strong>Bhatti, YA</strong>. (2024). 
+    <a href="https://libcat.canterbury.ac.nz/Record/in1360920">
+      Southern Ocean dimethyl sulfide and marine aerosol production simulated with an Earth system model.</a> <em>University of Canterbury PhD Thesis</em>.
+  </li>
+    <li>
+    <strong>Bhatti, YA.,</strong> Revell, LE., Schuddeboom, AJ., McDonald, AJ., Archibald, AT., Williams, J., Venugopal, AU., Hardacre, C., Behrens, E. (2023). 
+    <a href="https://acp.copernicus.org/articles/23/15181/2023/">
+      The sensitivity of Southern Ocean atmospheric dimethyl sulfide (DMS) to modeled oceanic DMS concentrations and emissions.</a> <em>Atmospheric Chemistry and Physics</em>, 23(24), 15181-15196.
+  </li>
+  <li>
+    <strong>Bhatti, YA.,</strong> Revell, LE., McDonald, AJ. (2022). 
+    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JD037199">
+      Influences of Antarctic ozone depletion on southern ocean aerosols.</a> <em>Journal of Geophysical Research: Atmospheres</em>, 127(18), e2022JD037199.
+  </li>
+</ul>
+
+<h4>Co-author Publications</h4>
+<ul class="pub-list">
+  <li>
+    Nugent, JM., Brown, H., McCoy, DT., Regayre, L., Ghosh, K., Elsaesser, G., <strong>Bhatti, YA.</strong>, Hasekamp, O., Mülmenstädt, J., Song, C., Burrows, SM., Watson-Parris, D., Grosvenor, DP., Carslaw, K., Gettelman, A., Eidhammer, T. (2025). New constraints on aerosol-cloud interactions from Earth system models suggests a warmer future.
+    <em>Science (in-review)</em>.
+  </li>
+
+  <li>
+    Jongebloed, UA., Fischer, TP., Kyle, PR., Kang, L., <strong>Bhatti, YA.</strong>, Alexander, B. (2025). Southern ocean sulfate aerosol sources quantified from sulfur isotopes in Antarctic ice cores.
+    <em>Geophysical Research Letters (in-review)</em>.
+  </li>
+
+  <li>
+    Venugopal, AU., <strong>Bhatti, YA.</strong>, Morgenstern, O., Williams, J., Edkins, N., Hardacre, C., Jones, A., Revell, LE. (2025). 
+    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024JD041643">
+      Constraining the uncertainty associated with sea salt aerosol parameterizations in global models using nudged UKESM1‐AMIP simulations.</a> <em>Journal of Geophysical Research: Atmospheres</em>, 130(2), e2024JD041643.
+  </li>
+  <li>
+    Revell, LE., Edkins, NJ., Venugopal, AU., <strong>Bhatti, YA.</strong>, Kozyniak, KM., Davy, PK., Kuschel, G., Somervell, E., Hardacre, C., Coulson, G. (2024). 
+    <a href="https://www.tandfonline.com/doi/full/10.1080/03036758.2024.2345678">
+      Marine aerosol in Aotearoa New Zealand: implications for air quality, climate change and public health.</a> <em>Journal of the Royal Society of New Zealand</em>, 1-23.
+  </li>
+    <li>
+    Revell, LE., Wotherspoon, NE., Jones, OJ., <strong>Bhatti, YA.</strong>, Williams, JHT., Mackie, SL., Mulcahy, JP. (2021). 
+    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL091900">
+      Atmosphere‐ocean feedback from wind‐driven sea spray aerosol production.</a> <em>Geophysical Research Letters</em>, 48(7), e2020GL091900.
+  </li>
+</ul>
+
+<style>
+.pub-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.pub-list li {
+  margin-bottom: 15px;
+  font-size: 1.05em;
+  line-height: 1.6;
+}
+.pub-list em {
+  color: #555;
+}
+.pub-list a {
+  color: #1a0dab;
+  text-decoration: underline;
+}
+</style>
 
 <h3>Current Research</h3>
 
 
 
 <div class="research-item">
+<<<<<<< HEAD
 [comment]: <! --- Constraining aerosol-cloud uncertainties in climate models using machine learning applications and the new NASA PACE and ESA EarthCARE satellite. !> 
 <h3>Constraining aerosol-cloud uncertainties in climate models using machine learning applications.</h3>
   <img src="/assets/Main_page/PACE_mission.jpg" alt="Aerosol-cloud interactions" class="research-image">
@@ -22,18 +108,25 @@ See <a href="Coding-Development.md">Coding Development</a> for model development
   <ul>
   <li><strong>Aim:</strong> Reduce uncertainties in aerosol-cloud interactions using machine learning emulators.</li>
   <li><strong>Methods:</strong> Leverage observations to train machine learning models for improved climate simulations.</li>
+=======
+<!-- <h3>Constraining aerosol-cloud uncertainties in climate models using machine learning applications and the new NASA PACE and ESA EarthCARE satellite.</h3> -->
+<h3>Using machine learning and satellites to constrain climate models aerosol uncertainty.</h3>
+
+  <img src="/assets/Main_page/PACE_mission.jpg" alt="Aerosol-cloud interactions" class="research-image">
+  <p> </p>
+  <ul>
+  <li><strong>Aim:</strong> Reduce uncertainties in aerosol-cloud interactions using machine learning and next-generation satellite data.</li>
+  <li><strong>Methods:</strong> Use NASA PACE and ESA EarthCARE satellite observations to train machine learning models for improved climate simulations.</li>
+>>>>>>> ffbe46f (Re-configured my research file so that my publications are all outlined clearly)
   </ul>
   <!-- <p><em>Status: In preparation</em></p> -->
 </div>
 
-<a id="past-publications"></a>
+<a id="past-publications-overview"></a>
 
-<h3 id="past-publications">Past Lead Author Publications and Research</h3>
-
-<div class="research-list">
+<h3 id="past-publications-overview">Overview of previous research</h3>
 
 
-  <!-- Aerosol-cloud interactions -->
   <div class="research-item">
   <h3>Quantifying aerosol-cloud interactions using machine learning applications to climate models</h3>
 
