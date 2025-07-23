@@ -4,7 +4,7 @@ title: "Research"
 permalink: /research/
 main_nav: true
 ---
-To see my past publications I have led, see <a href="#past-publications">my Past Lead Author Publications and Research</a>, below.
+To see my past publications, see <a href="#past-publications">my Past Lead Author Publications and Research</a>, below.
 
 Also to see the research I have co-authored, see <a href="https://scholar.google.com/citations?user=G7Si4kEAAAAJ&hl=en">my google scholar</a>.
 
