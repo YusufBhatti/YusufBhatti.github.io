@@ -9,3 +9,9 @@ permalink: /photography/hiking-trips/Sefton-Biv-2022
 
 
 Sefton Biv (2 days)
+
+<style>
+body {
+  background-color: #e6f4fb; /* Soft sky blue */
+}
+</style>

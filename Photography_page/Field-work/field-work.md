@@ -110,3 +110,9 @@ Directories are all under construction.
   </div>
 
 </div>
+
+<style>
+body {
+  background-color: #e6f4fb; /* Soft sky blue */
+}
+</style>

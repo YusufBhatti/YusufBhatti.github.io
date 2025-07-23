@@ -69,3 +69,9 @@ While I was living in New Zealand, I had an amazing opportunity to travel the am
     </div>
   </div>
 </div>
+
+<style>
+body {
+  background-color: #e6f4fb; /* Soft sky blue */
+}
+</style>

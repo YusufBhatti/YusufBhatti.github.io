@@ -38,6 +38,9 @@ main_nav: true
   </div>
 
   <style>
+body {
+  background-color: #e6f4fb; /* Soft sky blue */
+}
     /* CSS for the photography section */
     .photography {
       text-align: center;

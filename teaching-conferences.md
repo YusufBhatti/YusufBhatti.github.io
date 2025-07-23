@@ -94,3 +94,9 @@ main_nav: true
   {% if forloop.last == false %}<hr>{% endif %}
 {% endfor %}
 <br>
+
+<style>
+body {
+  background-color: #e6f4fb; /* Soft sky blue */
+}
+</style>

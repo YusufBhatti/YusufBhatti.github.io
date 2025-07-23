@@ -16,3 +16,8 @@ permalink: /photography/travelling/new-zealand/
   </a>
   <!-- Add more images as needed -->
 </div>
+<style>
+body {
+  background-color: #e6f4fb; /* Soft sky blue */
+}
+</style>

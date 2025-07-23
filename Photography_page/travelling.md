@@ -68,3 +68,8 @@ TBC there's alot in here.
   </div>
 </div>
 </div>
+<style>
+body {
+  background-color: #e6f4fb; /* Soft sky blue */
+}
+</style>
