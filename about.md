@@ -8,7 +8,7 @@ main_nav: true
 ![alt text]({{ site.baseurl }}/assets/Yusuf_Headshot.jpg){:.profile}
 
 <div class="about-section">
-  <h1>About Me</h1>
+  <h1></h1>
   <p>
     I'm an atmospheric physicist specializing in developing <a href="/publications">aerosol-cloud interactions</a> in climate models. Currently, I work as a research scientist at <strong>SRON Space Research Organization Netherlands</strong>, funded through <a href="https://projects.au.dk/cleancloud/cleancloud-project">EU Horizon CleanCloud</a>, with <strong>Otto Hasekamp</strong>. My expertise lies in developing aerosol-cloud interactions within climate models and the application of machine learning/AI in climate modeling.
   </p>
