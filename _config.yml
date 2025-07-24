@@ -22,7 +22,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 # cover: "/assets/Mountain.jpg"
 logo: "/assets/icons/favicon-96x96.png"
-# logo: "/assets/Home_Button.png"
 
 # Build settings
 markdown: kramdown
