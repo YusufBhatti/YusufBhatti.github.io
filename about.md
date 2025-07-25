@@ -10,10 +10,14 @@ main_nav: true
 <div class="about-section">
   <h1></h1>
   <p>
-    I'm an atmospheric physicist specializing in developing <a href="/publications">aerosol-cloud interactions</a> in climate models. Currently, I work as a research scientist at <strong>SRON Space Research Organization Netherlands</strong>, funded through <a href="https://projects.au.dk/cleancloud/cleancloud-project">EU Horizon CleanCloud</a>, with <strong>Otto Hasekamp</strong>. My expertise lies in developing aerosol-cloud interactions within climate models and the application of machine learning/AI in climate modeling.
+
+  I am an atmospheric physicist specializing in climate model development. Currently, I work as a research scientist at the <strong>SRON Space Research Organization Netherlands</strong>, funded through the <a href="https://projects.au.dk/cleancloud/cleancloud-project">EU Horizon CleanCloud</a>, with <strong>Otto Hasekamp</strong>. My expertise includes developing aerosol-cloud interactions within climate models and applying machine learning and AI techniques in climate modeling. 
+
   </p>
   <p>
-    My research focuses on improving the representation of aerosols in climate models through observations from satellites, ships, aircraft, and ground stations. I completed my PhD in atmospheric physics and chemistry at the <strong>University of Canterbury</strong> (New Zealand), under the supervision of <strong>Laura Revell</strong> and <strong>Adrian McDonald</strong>.
+  I am a code owner and core developer of the UKESM1 model up to version 13.2 of the Unified Model. Most recently, I have been involved in the development of the ECHAM6-HAM2.3 and ICON-HAM climate models.
+
+  Much of my research works to improve the representation of aerosols in climate models through observations from satellites, ships, aircraft, and ground stations. Inv 2023 I completed my PhD in atmospheric physics and chemistry at the <strong>University of Canterbury</strong> (New Zealand), under the supervision of <strong>Laura Revell</strong> and <strong>Adrian McDonald</strong>. My Masters (MRes; Masters of Research) project worked under <strong> Graham Mann </strong> at the <strong> University of Leeds </strong> modelling stratospheric sulfate aerosol injections. 
   </p>
   <p>
     Having lived in four countries, I've embraced a culturally immersive and adaptive lifestyle. I enjoy capturing these experiences through photography, and some of my work can be found in my <a href="/photography">photography</a> section.
@@ -63,11 +67,12 @@ main_nav: true
   <h1>Work Experience</h1>
   <div class="experience-item">
     <h3> 2024 – Present</h3>
+    <h4>Research Scientist</h4>
     <h4>SRON Space Research Organization Netherlands (The Netherlands)</h4>
-    <h5>Research Scientist</h5>
     <p>
-    Climate models, such as ECHAM6-HAM and ICON-HAM, are essential for understanding past and future climate changes. However, significant uncertainties remain, particularly regarding aerosols and clouds. My work focuses on mitigating these uncertainties by integrating new satellite observations from missions like PACE and Earth-Care.
-To achieve this, I developed a perturbed parameter ensemble (PPE) consisting of over 221 simulations with slight variations in parameter configurations. Using this PPE as a training set, I apply machine learning techniques to emulate millions of additional simulations efficiently. This approach enables us to pinpoint sources of uncertainty, validate model outputs against observations, and refine the representation of aerosol-cloud interactions in climate models.
+Climate models, such as ECHAM6-HAM and ICON-HAM, are essential for understanding past and future climate changes. However, significant uncertainties remain, particularly regarding aerosols and clouds. My work focuses on mitigating these uncertainties by integrating new satellite observations from missions by NASA/SRON and ESA, like PACE and EarthCARE.
+To achieve this, I developed a perturbed parameter ensemble (PPE) consisting of over 221 simulations with slight variations in parameter configurations. Using this PPE as a training set, I apply machine learning techniques to emulate millions of additional simulations efficiently. This approach enables us to pinpoint sources of uncertainty, validate model outputs against observations, and refine the representation of aerosol-cloud interactions in climate models. </p>
+<p>
 By combining satellite data and advanced machine learning, my research aims to enhance the accuracy and reliability of climate projections, contributing to a deeper understanding of aerosol and cloud impacts on the Earth's climate system.
 
 </p>
@@ -87,7 +92,7 @@ By combining satellite data and advanced machine learning, my research aims to e
     </p>
   </div>
   <div class="education-item">
-    <h3>University of Leeds (UK)</h3>
+    <h3>University of Leeds (United Kingdom)</h3>
     <h4>Master of Research in Climate and Atmospheric Chemistry and Physics</h4>
     <h5>Sept 2016 - Sept 2017</h5>
     <p>
@@ -98,7 +103,7 @@ By combining satellite data and advanced machine learning, my research aims to e
   </div>
 
   <div class="education-item">
-    <h3>University of Keele (UK)</h3>
+    <h3>University of Keele (United Kingdom)</h3>
     <h4>BSc(Hons) Geology with Physical Geography</h4>
     <h5>Sept 2015 - Sept 2018</h5>
     <p>
@@ -108,7 +113,7 @@ By combining satellite data and advanced machine learning, my research aims to e
   </div>
 
   <div class="education-item">
-    <h3>University of Utah (USA)</h3>
+    <h3>University of Utah (United States of America)</h3>
     <h4>Exchange Student</h4>
 
     <h5>Aug 2016 - Jan 2017</h5>

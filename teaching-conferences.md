@@ -18,9 +18,11 @@ main_nav: true
 
 - **2023** Invited Talk – Met Office  
 - **2022** Invited Talk – Clean Air Society of New Zealand and Australia  
+- **2022** Seminar in Physics. University of Canterbury. 
 - **2020** New Zealand Meteorological Society Conference Committee Member  
 - **2020** Session Chair – New Zealand Meteorological Society Conference  
-
+- **2019** Seminar in Atmospheric Physics and Chemistry. University of Leeds. 
+  
 ---
 
 ## Grants and Awards
