@@ -15,14 +15,19 @@ main_nav: true
 
   </p>
   <p>
-  I am a code owner and core developer of the UKESM1 model up to version 13.2 of the Unified Model. Most recently, I have been involved in the development of the ECHAM6-HAM2.3 and ICON-HAM climate models.
+  I am a code owner and core developer of the UKESM1 model, up to version 13.2 of the Unified Model. Most recently, I have been involved in the development of the ECHAM6-HAM2.3 and ICON-HAM climate models. Much of my research focuses on improving the representation of aerosols in climate models through observations from satellites, ships, aircraft, and ground stations. 
 
-  Much of my research works to improve the representation of aerosols in climate models through observations from satellites, ships, aircraft, and ground stations. Inv 2023 I completed my PhD in atmospheric physics and chemistry at the <strong>University of Canterbury</strong> (New Zealand), under the supervision of <strong>Laura Revell</strong> and <strong>Adrian McDonald</strong>. My Masters (MRes; Masters of Research) project worked under <strong> Graham Mann </strong> at the <strong> University of Leeds </strong> modelling stratospheric sulfate aerosol injections. 
+In 2023, I completed my PhD in atmospheric physics and chemistry at the <strong>University of Canterbury</strong> in New Zealand, under the supervision of <strong>Laura Revell</strong> and <strong>Adrian McDonald</strong>. My Master’s project (MRes; Master of Research) was conducted under the guidance of <strong> Graham Mann </strong> at the <strong> University of Leeds</strong>, where I modeled stratospheric sulfate aerosol injections.
+
   </p>
   <p>
-    Having lived in four countries, I've embraced a culturally immersive and adaptive lifestyle. I enjoy capturing these experiences through photography, and some of my work can be found in my <a href="/photography">photography</a> section.
+Having lived in four countries, I have embraced a culturally immersive and adaptable lifestyle. I enjoy capturing these experiences through photography, and some of my work can be found in my <a href="/photography">photography</a> section.
   </p>
 </div>
+
+
+
+
 
 <style>
   /* Styling for the About Me Section */
