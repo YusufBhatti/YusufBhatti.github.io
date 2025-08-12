@@ -1,0 +1,31 @@
+First you need to run:
+(base) yusufb@mac-241 YusufBhatti.github.io % git filter-branch -f --env-filter ' 
+CORRECT_NAME="Yusuf Bhatti"
+CORRECT_EMAIL="yusuf.bhatti@hotmail.com"
+
+for OLD_EMAIL in "ybhatti@int4.local.snellius.surf.nl" "95889180+YusufBhatti@users.noreply.github.com" "ybhatti@int6.local.snellius.surf.nl"
+do
+    if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
+    then
+        export GIT_COMMITTER_NAME="$CORRECT_NAME"
+        export GIT_COMMITTER_EMAIL="$CORRECT_EMAIL"
+    fi
+    if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]
+    then
+        export GIT_AUTHOR_NAME="$CORRECT_NAME"
+        export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
+    fi
+done
+' --tag-name-filter cat -- --all
+
+
+
+With the old emails outlined in the OLD EMAIL section
+
+Step 2 is to check (or perhaps push first?)
+git log --pretty=format:'%ae' | sort | uniq -c
+
+Then push:
+git push --force --tags origin master
+
+
