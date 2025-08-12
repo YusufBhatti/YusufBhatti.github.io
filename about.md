@@ -54,7 +54,7 @@ Having lived in four countries, I have embraced a culturally immersive and adapt
   }
 
   .about-section a {
-    color: #87CEEB; /* Sky blue */
+    color: #000080; /* Navy blue */
     text-decoration: none;
     font-weight: bold;
   }
