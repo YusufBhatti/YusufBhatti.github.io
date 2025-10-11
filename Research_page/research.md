@@ -60,6 +60,12 @@ For a more in-depth look into my past projects, see <a href="#past-publications-
   </li>
 
   <li>
+    Schutgens, N., Andrews, E., Arola, A., <strong>Bhatti, YA.</strong>, Hasekamp, O., Kolmonen, P., Lipponen, A., Mielonen, T., Regayre, L., and Sayer, A. (2025). Is it possible to observe aerosol lifetimes from space? Temporal autocorrelations offer a new way to use existing observational datasets. 
+    <em>{Journal of Geophysical Research: Atmospheres [in review]} </em>.
+
+  </li>
+
+  <li>
     Venugopal, AU., <strong>Bhatti, YA.</strong>, Morgenstern, O., Williams, J., Edkins, N., Hardacre, C., Jones, A., Revell, LE. (2025). 
     <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024JD041643">
       Constraining the uncertainty associated with sea salt aerosol parameterizations in global models using nudged UKESM1‐AMIP simulations.</a> <em>Journal of Geophysical Research: Atmospheres</em>, 130(2), e2024JD041643.
