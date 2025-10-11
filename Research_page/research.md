@@ -61,7 +61,7 @@ For a more in-depth look into my past projects, see <a href="#past-publications-
 
   <li>
     Schutgens, N., Andrews, E., Arola, A., <strong>Bhatti, YA.</strong>, Hasekamp, O., Kolmonen, P., Lipponen, A., Mielonen, T., Regayre, L., and Sayer, A. (2025). Is it possible to observe aerosol lifetimes from space? Temporal autocorrelations offer a new way to use existing observational datasets. 
-    <em>{Journal of Geophysical Research: Atmospheres [in review]} </em>.
+    <em>Journal of Geophysical Research: Atmospheres [in review] </em>.
 
   </li>
 
