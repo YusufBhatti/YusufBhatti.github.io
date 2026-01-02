@@ -50,7 +50,7 @@ For a more in-depth look into my past projects, see <a href="#past-publications-
 <h4>Co-author Publications</h4>
 <ul class="pub-list">
   <li>
-    Nugent, JM., Brown, H., McCoy, DT., Regayre, L., Ghosh, K., Elsaesser, G., <strong>Bhatti, YA.</strong>, Hasekamp, O., Mülmenstädt, J., Song, C., Burrows, SM., Watson-Parris, D., Grosvenor, DP., Carslaw, K., Gettelman, A., Eidhammer, T. (2025). New constraints on aerosol-cloud interactions from Earth system models suggests a warmer future.
+    Nugent, JM., Brown, H., McCoy, DT., Regayre, L., Ghosh, K., Elsaesser, G., <strong>Bhatti, YA.</strong>, Mülmenstädt, J., Song, C., Burrows, SM., Watson-Parris, D., Grosvenor, DP., Carslaw, K., Gettelman, A., Eidhammer, T. (2025). New constraints on aerosol-cloud interactions from Earth system models suggests a warmer future.
     <em>Science (in-review)</em>.
   </li>
 
