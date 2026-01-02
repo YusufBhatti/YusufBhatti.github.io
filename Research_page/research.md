@@ -22,7 +22,7 @@ For a more in-depth look into my past projects, see <a href="#past-publications-
   <li>
     <strong>Bhatti, YA.,</strong> Watson-Parris, D., Regayre, L., Jia, H., Neubauer, D., Im, U., Svenhag, C., Schutgens, N., Tsikerdekis, A., Nenes, A., Muhammed, I., van Diedenhoven, B., Arifi, A., Fu, G., Hasekamp, O. (2025). 
     <a href="https://doi.org/10.5194/egusphere-2025-2848">
-      Uncertainty in aerosol effective radiative forcing from anthropogenic and natural aerosol parameters in ECHAM6.3-HAM2.3.</a> <em>EGUsphere [in-review]</em>, 2025, 1-35.
+      Uncertainty in aerosol effective radiative forcing from anthropogenic and natural aerosol parameters in ECHAM6.3-HAM2.3.</a> <em>EGUsphere [Accepted]</em>, 2025, 1-35.
   </li>
   
   <li>
@@ -56,7 +56,7 @@ For a more in-depth look into my past projects, see <a href="#past-publications-
 
   <li>
     Jongebloed, UA., Fischer, TP., Kyle, PR., Kang, L., <strong>Bhatti, YA.</strong>, Alexander, B. (2025). Southern ocean sulfate aerosol sources quantified from sulfur isotopes in Antarctic ice cores.
-    <em>Geophysical Research Letters (in-review)</em>.
+    <em>Geophysical Research Letters (Accepted)</em>.
   </li>
 
   <li>
