@@ -23,7 +23,7 @@ For a more in-depth look into my past projects, see <a href="#past-publications-
     <strong>Bhatti, YA.,</strong> Watson-Parris, D., Regayre, L., Jia, H., Neubauer, D., Im, U., Svenhag, C., Schutgens, N., Tsikerdekis, A., Nenes, A., Muhammed, I., van Diedenhoven, B., Arifi, A., Fu, G., Hasekamp, O. (2026). 
     <a href="https://doi.org/10.5194/acp-26-269-2026">
       Uncertainty in aerosol effective radiative forcing from anthropogenic and natural aerosol parameters in ECHAM6.3-HAM2.3.</a> <em> Atmospheric
-Chemistry and Physics</em>, 2026,  26(1), 269-293.
+Chemistry and Physics</em>, 26(1), 269-293.
   </li>
   
   <li>
