@@ -51,17 +51,17 @@ Chemistry and Physics</em>, 26(1), 269-293.
 <h4>Co-author Publications</h4>
 <ul class="pub-list">
   <li>
-    Nugent, JM., Brown, H., McCoy, DT., Regayre, L., Ghosh, K., Elsaesser, G., <strong>Bhatti, YA.</strong>, Mülmenstädt, J., Song, C., Burrows, SM., Watson-Parris, D., Grosvenor, DP., Carslaw, K., Gettelman, A., Eidhammer, T. (2025). New constraints on aerosol-cloud interactions from Earth system models suggests a warmer future.
+    Nugent, JM., Brown, H., McCoy, DT., Regayre, L., Ghosh, K., Elsaesser, G., <strong>Bhatti, YA.</strong>, Mülmenstädt, J., Song, C., Burrows, SM., Watson-Parris, D., Grosvenor, DP., Carslaw, K., Gettelman, A., Eidhammer, T. (2026). New constraints on aerosol-cloud interactions from Earth system models suggests a warmer future.
     <em>Science (in-review)</em>.
   </li>
 
   <li>
-    Jongebloed, UA., Fischer, TP., Kyle, PR., Kang, L., <strong>Bhatti, YA.</strong>, Alexander, B. (2025). Southern ocean sulfate aerosol sources quantified from sulfur isotopes in Antarctic ice cores.
+    Jongebloed, UA., Fischer, TP., Kyle, PR., Kang, L., <strong>Bhatti, YA.</strong>, Alexander, B. (2026). Southern ocean sulfate aerosol sources quantified from sulfur isotopes in Antarctic ice cores.
     <em>Geophysical Research Letters (Accepted)</em>.
   </li>
 
   <li>
-    Schutgens, N., Andrews, E., Arola, A., <strong>Bhatti, YA.</strong>, Hasekamp, O., Kolmonen, P., Lipponen, A., Mielonen, T., Regayre, L., and Sayer, A. (2025). Is it possible to observe aerosol lifetimes from space? Temporal autocorrelations offer a new way to use existing observational datasets. 
+    Schutgens, N., Andrews, E., Arola, A., <strong>Bhatti, YA.</strong>, Hasekamp, O., Kolmonen, P., Lipponen, A., Mielonen, T., Regayre, L., and Sayer, A. (2026). Is it possible to observe aerosol lifetimes from space? Temporal autocorrelations offer a new way to use existing observational datasets. 
     <em>Journal of Geophysical Research: Atmospheres (in review) </em>.
 
   </li>
@@ -72,7 +72,7 @@ Chemistry and Physics</em>, 26(1), 269-293.
       Constraining the uncertainty associated with sea salt aerosol parameterizations in global models using nudged UKESM1‐AMIP simulations.</a> <em>Journal of Geophysical Research: Atmospheres</em>, 130(2), e2024JD041643.
   </li>
   <li>
-    Revell, LE., Edkins, NJ., Venugopal, AU., <strong>Bhatti, YA.</strong>, Kozyniak, KM., Davy, PK., Kuschel, G., Somervell, E., Hardacre, C., Coulson, G. (2024). 
+    Revell, LE., Edkins, NJ., Venugopal, AU., <strong>Bhatti, YA.</strong>, Kozyniak, KM., Davy, PK., Kuschel, G., Somervell, E., Hardacre, C., Coulson, G. (2025). 
     <a href="https://www.tandfonline.com/doi/full/10.1080/03036758.2024.2345678">
       Marine aerosol in Aotearoa New Zealand: implications for air quality, climate change and public health.</a> <em>Journal of the Royal Society of New Zealand</em>, 1-23.
   </li>
