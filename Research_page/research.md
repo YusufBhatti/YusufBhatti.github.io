@@ -28,7 +28,7 @@ Chemistry and Physics</em>, 26(1), 269-293.
   
   <li>
   <strong>Bhatti, YA.,</strong> Revell, LE., McDonald, AJ., Archibald, AT., Schuddeboom, AJ., Williams, J., Hardacre, C., Mulcahy, J., Lin, D. (2024). 
-  <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023JD040635"> Aerosol and dimethyl sulfide sensitivity to sulfate chemistry schemes.</a> <em>Journal of Geophysical Research: Atmospheres</em>, 129(12), e2023JD040635.
+  <a href="https://doi.org/10.1029/2023JD040635"> Aerosol and dimethyl sulfide sensitivity to sulfate chemistry schemes.</a> <em>Journal of Geophysical Research: Atmospheres</em>, 129(12), e2023JD040635.
 </li>
 
   <li>
@@ -38,12 +38,12 @@ Chemistry and Physics</em>, 26(1), 269-293.
   </li>
     <li>
     <strong>Bhatti, YA.,</strong> Revell, LE., Schuddeboom, AJ., McDonald, AJ., Archibald, AT., Williams, J., Venugopal, AU., Hardacre, C., Behrens, E. (2023). 
-    <a href="https://acp.copernicus.org/articles/23/15181/2023/">
+    <a href="https://doi.org/10.5194/acp-23-15181-2023">
       The sensitivity of Southern Ocean atmospheric dimethyl sulfide (DMS) to modeled oceanic DMS concentrations and emissions.</a> <em>Atmospheric Chemistry and Physics</em>, 23(24), 15181-15196.
   </li>
   <li>
     <strong>Bhatti, YA.,</strong> Revell, LE., McDonald, AJ. (2022). 
-    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JD037199">
+    <a href="https://doi.org/10.1029/2022JD037199">
       Influences of Antarctic ozone depletion on southern ocean aerosols.</a> <em>Journal of Geophysical Research: Atmospheres</em>, 127(18), e2022JD037199.
   </li>
 </ul>
@@ -56,8 +56,8 @@ Chemistry and Physics</em>, 26(1), 269-293.
   </li>
 
   <li>
-    Jongebloed, UA., Fischer, TP., Kyle, PR., Kang, L., <strong>Bhatti, YA.</strong>, Alexander, B. (2026). Southern ocean sulfate aerosol sources quantified from sulfur isotopes in Antarctic ice cores.
-    <em>Geophysical Research Letters (Accepted)</em>.
+    Jongebloed, UA., Fischer, TP., Kyle, PR., Kang, L., <strong>Bhatti, YA.</strong>, Alexander, B. (2026). <a href="https://doi.org/10.1029/2025GL118622"> Southern ocean sulfate aerosol sources quantified from sulfur isotopes in Antarctic ice cores. </a> <em>Geophysical Research Letters</em>, 53(2), p.e2025GL118622.
+    
   </li>
 
   <li>
@@ -68,17 +68,18 @@ Chemistry and Physics</em>, 26(1), 269-293.
 
   <li>
     Venugopal, AU., <strong>Bhatti, YA.</strong>, Morgenstern, O., Williams, J., Edkins, N., Hardacre, C., Jones, A., Revell, LE. (2025). 
-    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024JD041643">
+    <a href="https://doi.org/10.1029/2024JD041643">
       Constraining the uncertainty associated with sea salt aerosol parameterizations in global models using nudged UKESM1‐AMIP simulations.</a> <em>Journal of Geophysical Research: Atmospheres</em>, 130(2), e2024JD041643.
   </li>
   <li>
     Revell, LE., Edkins, NJ., Venugopal, AU., <strong>Bhatti, YA.</strong>, Kozyniak, KM., Davy, PK., Kuschel, G., Somervell, E., Hardacre, C., Coulson, G. (2025). 
-    <a href="https://www.tandfonline.com/doi/full/10.1080/03036758.2024.2345678">
+    <a href="https://doi.org/10.1080/03036758.2024.2319753">
       Marine aerosol in Aotearoa New Zealand: implications for air quality, climate change and public health.</a> <em>Journal of the Royal Society of New Zealand</em>, 1-23.
   </li>
+  
     <li>
     Revell, LE., Wotherspoon, NE., Jones, OJ., <strong>Bhatti, YA.</strong>, Williams, JHT., Mackie, SL., Mulcahy, JP. (2021). 
-    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL091900">
+    <a href="https://doi.org/10.1029/2020GL091900">
       Atmosphere‐ocean feedback from wind‐driven sea spray aerosol production.</a> <em>Geophysical Research Letters</em>, 48(7), e2020GL091900.
   </li>
 </ul>
