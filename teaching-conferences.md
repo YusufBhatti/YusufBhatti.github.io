@@ -15,7 +15,7 @@ main_nav: true
 ---
 
 ## Invited Talks and Conference Chairing
-- **2026** 2026 Invited Talk – ClearAir symposium on Clouds and Aerosols (using EarthCARE and PACE),
+- **2026** Invited Talk – ClearAir symposium on Clouds and Aerosols (using EarthCARE and PACE),
 Leiden, Netherlands  
 - **2023** Invited Talk – Met Office  
 - **2022** Invited Talk – Clean Air Society of New Zealand and Australia  
