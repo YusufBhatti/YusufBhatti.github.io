@@ -77,7 +77,7 @@ Chemistry and Physics</em>, 26(1), 269-293.
       Marine aerosol in Aotearoa New Zealand: implications for air quality, climate change and public health.</a> <em>Journal of the Royal Society of New Zealand</em>, 1-23.
   </li>
   
-    <li>
+  <li>
     Revell, LE., Wotherspoon, NE., Jones, OJ., <strong>Bhatti, YA.</strong>, Williams, JHT., Mackie, SL., Mulcahy, JP. (2021). 
     <a href="https://doi.org/10.1029/2020GL091900">
       Atmosphere‐ocean feedback from wind‐driven sea spray aerosol production.</a> <em>Geophysical Research Letters</em>, 48(7), e2020GL091900.
@@ -112,9 +112,10 @@ Chemistry and Physics</em>, 26(1), 269-293.
     <img src="/assets/Main_page/PPE_Observation_Comparison_2010.png" alt="Aerosol-cloud interactions" class="research-image">
     <ul>
     <p class="citation">
-    <strong>Bhatti, YA.</strong>, Watson-Parris, D., Regayre, L., Jia, H., Neubauer, D., Im, U., Svenhag, C., Schutgens, N., Tsikerdekis, A., Nenes, A., Muhammed, I., van Diedenhoven, B., Arifi, A., Fu, G., Hasekamp, O. (2025). 
-    <span class="title"><a href="https://doi.org/10.5194/egusphere-2025-2848">Uncertainty in aerosol effective radiative forcing from anthropogenic and natural aerosol parameters in ECHAM6.3-HAM2.3.</a></span>
-    <em>EGUsphere</em>, 2025, 1-35.
+    <strong>Bhatti, YA.,</strong> Watson-Parris, D., Regayre, L., Jia, H., Neubauer, D., Im, U., Svenhag, C., Schutgens, N., Tsikerdekis, A., Nenes, A., Muhammed, I., van Diedenhoven, B., Arifi, A., Fu, G., Hasekamp, O. (2026). 
+    <a href="https://doi.org/10.5194/acp-26-269-2026">
+      Uncertainty in aerosol effective radiative forcing from anthropogenic and natural aerosol parameters in ECHAM6.3-HAM2.3.</a> <em> Atmospheric
+Chemistry and Physics</em>, 26(1), 269-293.
     </p>
     <li><strong>Aim:</strong> Quantify uncertainties in aerosol-cloud interactions and their impact on radiative forcing.</li>
     <li><strong>Methods:</strong> Developed a perturbed parameter ensemble (PPE) of 221 simulations in ECHAM6.3-HAM2.3, varying 23 key parameters.</li>
