@@ -15,7 +15,8 @@ main_nav: true
 ---
 
 ## Invited Talks and Conference Chairing
-
+- **2026** 2026 Invited Talk – ClearAir symposium on Clouds and Aerosols (using EarthCARE and PACE),
+Leiden, Netherlands  
 - **2023** Invited Talk – Met Office  
 - **2022** Invited Talk – Clean Air Society of New Zealand and Australia  
 - **2022** Seminar in Physics. University of Canterbury. 
@@ -46,11 +47,11 @@ main_nav: true
 - **2023** Clean Air Society of New Zealand and Australia Travel Grant
 - **2019** Aerosol Society Early Career Scientist Travel Award, Leeds  
 
-
 ---
 
 ## Talks
-
+- **2025** Presentation – Aerocom/Aerosat, Paris, France
+- **2025** Presentation – NASA/UMBC (PACE Hackathon), Baltimore
 - **2025** Presentation – American Meteorological Society, New Orleans  
 - **2024** Presentation – Aerocom/Aerosat, Lille  
 - **2023** Presentation – New Zealand Meteorological Society Conference, Wellington
@@ -67,7 +68,7 @@ main_nav: true
 ---
 
 ## Society Memberships
-
+- European Geosciences Union   
 - American Meteorological Society  
 - Australian Meteorological and Oceanographic Society  
 - Meteorological Society of New Zealand  
