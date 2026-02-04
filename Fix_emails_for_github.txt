@@ -1,9 +1,9 @@
 First you need to run:
 (base) yusufb@mac-241 YusufBhatti.github.io % git filter-branch -f --env-filter ' 
 CORRECT_NAME="Yusuf Bhatti"
-CORRECT_EMAIL="yusuf.bhatti@hotmail.com"
+CORRECT_EMAIL="insert correct email"
 
-for OLD_EMAIL in "ybhatti@int4.local.snellius.surf.nl" "95889180+YusufBhatti@users.noreply.github.com" "ybhatti@int6.local.snellius.surf.nl"
+for OLD_EMAIL in "*insert email" "insert email" "insert email"
 do
     if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
     then
