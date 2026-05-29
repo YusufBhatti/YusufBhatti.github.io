@@ -22,8 +22,7 @@ For a more in-depth look into my past projects, see <a href="#past-publications-
   <li>
     <strong>Bhatti, YA.,</strong> Watson-Parris, D., Regayre, L., Jia, H., Neubauer, D., Im, U., Svenhag, C., Schutgens, N., Tsikerdekis, A., Nenes, A., Muhammed, I., van Diedenhoven, B., Arifi, A., Fu, G., Hasekamp, O. (2026). 
     <a href="https://doi.org/10.5194/acp-26-269-2026">
-      Uncertainty in aerosol effective radiative forcing from anthropogenic and natural aerosol parameters in ECHAM6.3-HAM2.3.</a> <em> Atmospheric
-Chemistry and Physics</em>, 26(1), 269-293.
+      Uncertainty in aerosol effective radiative forcing from anthropogenic and natural aerosol parameters in ECHAM6.3-HAM2.3.</a> <em> Atmospheric Chemistry and Physics</em>, 26(1), 269-293.
   </li>
   
   <li>
@@ -61,8 +60,8 @@ Chemistry and Physics</em>, 26(1), 269-293.
   </li>
 
   <li>
-    Schutgens, N., Andrews, E., Arola, A., <strong>Bhatti, YA.</strong>, Hasekamp, O., Kolmonen, P., Lipponen, A., Mielonen, T., Regayre, L., and Sayer, A. (2026). Is it possible to observe aerosol lifetimes from space? Temporal autocorrelations offer a new way to use existing observational datasets. 
-    <em>Journal of Geophysical Research: Atmospheres (in review) </em>.
+    Schutgens, N., Andrews, E., Arola, A., <strong>Bhatti, YA.</strong>, Hasekamp, O., Kolmonen, P., Lipponen, A., Mielonen, T., Regayre, L., and Sayer, A. (2026). <a href="https://doi.org/10.5194/egusphere-2026-2656"> Is it possible to observe aerosol lifetimes from space? Temporal autocorrelations offer a new way to use existing observational datasets. </a>  
+    <em>Atmospheric Chemistry and Physics (in review) </em>.
 
   </li>
 
