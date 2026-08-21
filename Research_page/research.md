@@ -19,6 +19,14 @@ For a more in-depth look into my past projects, see <a href="#past-publications-
 
 <h4>Lead Author Publications</h4>
 <ul class="pub-list">
+
+
+  <li>
+    <strong>Bhatti, YA.,</strong> Regayre, L., Jia, H., Watson-Parris, D., Im, U., Schutgens, N., Nenes, A., van Diedenhoven, B., Zadelhoff, G., and Hasekamp, O. (2026). 
+    <a href="#">
+      Multi-satellite constraints reduce uncertainty in modeled aerosol forcing.</a> <em>Science Advances [in-review]</em>.
+  </li>
+
   <li>
     <strong>Bhatti, YA.,</strong> Watson-Parris, D., Regayre, L., Jia, H., Neubauer, D., Im, U., Svenhag, C., Schutgens, N., Tsikerdekis, A., Nenes, A., Muhammed, I., van Diedenhoven, B., Arifi, A., Fu, G., Hasekamp, O. (2026). 
     <a href="https://doi.org/10.5194/acp-26-269-2026">
