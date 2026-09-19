@@ -151,7 +151,7 @@ pre code.hljs {
     height: 4em;
     @include media ($tablet) {
     	padding-left: $em-base;
-    	padding-right: 10em;
+    	padding-right: 7em;
     	// Vertical divider between the logo and the nav tabs,.
     	border-right: 1px solid $base-border-color;
     }
