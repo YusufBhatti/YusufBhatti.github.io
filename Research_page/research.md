@@ -11,7 +11,7 @@ main_nav: true
 My research quantifies and reduces uncertainty in how aerosols and clouds interact within the Earth's
 climate system. I combine large-scale climate model experiments, satellite observations, and machine
 learning to work out where climate models get aerosol-cloud interactions wrong, why, and how to fix
-them &mdash; spanning model development (ECHAM6-HAM, ICON-HAM, UKESM1), perturbed-parameter ensembles,
+them, spanning model development (ECHAM6-HAM, ICON-HAM, UKESM1), perturbed-parameter ensembles,
 and Gaussian process / neural network emulation.
 </p>
 
@@ -24,14 +24,14 @@ my <a href="/publications">Publications page</a> for the complete list.
 <h3>Research Interests</h3>
 <div class="interests-grid">
   <div class="interest-item">
-    <h4>Aerosol&ndash;Cloud Interactions</h4>
+    <h4>Aerosol-Cloud Interactions</h4>
     <p>Quantifying how aerosols influence cloud properties and Earth's radiation budget, and constraining
     the resulting uncertainty in climate projections.</p>
   </div>
   <div class="interest-item">
     <h4>Machine Learning Emulation</h4>
-    <p>Building Gaussian process and neural network emulators trained on large perturbed-parameter
-    ensembles, making uncertainty quantification computationally tractable at scale.</p>
+    <p>Develop and train Gaussian process emulators on large perturbed-parameter
+    ensembles.</p>
   </div>
   <div class="interest-item">
     <h4>Satellite-Constrained Modelling</h4>
@@ -45,15 +45,17 @@ my <a href="/publications">Publications page</a> for the complete list.
   <h3>Using machine learning and satellites to constrain climate models' aerosol uncertainty</h3>
   <img src="/assets/Main_page/PACE_mission.jpg" alt="Aerosol-cloud interactions" class="research-image">
   <ul>
-  <li><strong>Aim:</strong> Reduce uncertainties in aerosol-cloud interactions using machine learning and next-generation satellite data.</li>
-  <li><strong>Methods:</strong> Use NASA PACE and ESA EarthCARE satellite observations to train machine learning models for improved climate simulations.</li>
+  <li><strong>Aim:</strong> Constrain aerosol Effective Radiative Forcing (ERF) uncertainty in climate models - one of the largest remaining uncertainties in future climate projections.</li>
+  <li><strong>Methods:</strong> Use PACE and EarthCARE satellite observations of aerosol amount, size, absorption, and vertical distribution, together with cloud droplet number concentration, to constrain a perturbed parameter ensemble of aerosol-climate model simulations.</li>
+  <li><strong>Results:</strong> Combining these observations reduces aerosol ERF parametric uncertainty by 34%, narrowing the ERFari and ERFaci credible interval ranges by 66% and 32% respectively.</li>
+  <li>The resulting observation-consistent ERF estimate of -1.52 W/m&sup2; [-2.0 to -1.1 W/m&sup2;] suggests stronger aerosol cooling than the current IPCC estimate of -1.3 [-2.0 to -0.6] W/m&sup2;.</li>
   </ul>
 </div>
 
 <h3 id="research-highlights">Research Highlights</h3>
 
 <div class="research-item">
-  <h3>Quantifying aerosol-cloud interactions using machine learning applications to climate models</h3>
+  <h3>Quantifying aerosol uncertainties using machine learning applications (perturbed parameter ensemble) to climate models</h3>
   <img src="/assets/Main_page/PPE_Observation_Comparison_2010.png" alt="Aerosol-cloud interactions" class="research-image">
   <p class="citation">
   <strong>Bhatti, YA.,</strong> Watson-Parris, D., Regayre, L., Jia, H., Neubauer, D., Im, U., Svenhag, C., Schutgens, N., Tsikerdekis, A., Nenes, A., Muhammed, I., van Diedenhoven, B., Arifi, A., Fu, G., Hasekamp, O. (2026).
@@ -61,9 +63,11 @@ my <a href="/publications">Publications page</a> for the complete list.
     Uncertainty in aerosol effective radiative forcing from anthropogenic and natural aerosol parameters in ECHAM6.3-HAM2.3.</a> <em>Atmospheric Chemistry and Physics</em>, 26(1), 269-293.
   </p>
   <ul>
-  <li><strong>Aim:</strong> Quantify uncertainties in aerosol-cloud interactions and their impact on radiative forcing.</li>
-  <li><strong>Methods:</strong> Developed a perturbed parameter ensemble (PPE) of 221 simulations in ECHAM6.3-HAM2.3, varying 23 key parameters.</li>
-  <li>Regional uncertainties in aerosol parameters contribute to regional uncertainties in aerosol radiative effects.</li>
+  <li><strong>Aim:</strong> Quantify parametric uncertainty in aerosol effective radiative forcing (ERF) from aerosol-cloud and aerosol-radiation interactions.</li>
+  <li><strong>Methods:</strong> Developed a perturbed parameter ensemble (PPE) of 221 simulations in ECHAM6.3-HAM2.3, varying 23 parameters controlling aerosol emissions, removal, chemistry, and microphysics.</li>
+  <li><strong>Results:</strong> Global uncertainty is dominated by sulfate-related processes, biomass burning, aerosol size, and natural emissions.</li>
+  <li>Sulfate chemistry and dry deposition most strongly influence aerosol-radiation interactions, while DMS and biomass burning emissions dominate aerosol-cloud interactions.</li>
+  <li>Comparison with POLDER-3/PARASOL satellite retrievals reveals persistent model biases in aerosol optical depth, &Aring;ngstr&ouml;m exponent, and single-scattering albedo - sulfate-related processes alone account for over 40% of AOD uncertainty.</li>
   </ul>
   <a href="https://doi.org/10.5194/egusphere-2025-2848" class="research-link">Read Manuscript</a>
 </div>
@@ -79,10 +83,44 @@ my <a href="/publications">Publications page</a> for the complete list.
   <ul>
   <li><strong>Aim:</strong> Assess the sensitivity of atmospheric DMS to oceanic DMS datasets and transfer velocity parameterizations.</li>
   <li><strong>Methods:</strong> Conducted eight 10-year simulations using UKESM1-AMIP, testing four oceanic DMS datasets and three transfer velocity parameterizations.</li>
-  <li>The choice of oceanic DMS dataset has a larger influence on atmospheric DMS than the choice of DMS transfer velocity.</li>
+  <li><strong>Results:</strong> The choice of oceanic DMS dataset has a larger influence on atmospheric DMS than the choice of DMS transfer velocity.</li>
   <li>Capturing large-scale spatial variability can be more important than large-scale interannual variability.</li>
   </ul>
   <a href="https://acp.copernicus.org/articles/23/15181/2023/" class="research-link">Read Manuscript</a>
+</div>
+
+<div class="research-item">
+  <h3>Aerosol and Dimethyl Sulfide Sensitivity to Sulfate Chemistry Schemes</h3>
+  <img src="/assets/Main_page/Paper_3.png" alt="chemistry" class="research-image">
+  <p class="citation">
+    <strong>Bhatti, YA.</strong>, Revell, LE., McDonald, AJ., Archibald, AT., Schuddeboom, AJ., Williams, J., Hardacre, C., Mulcahy, J., Lin, D. (2024).
+    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023JD040635">Aerosol and dimethyl sulfide sensitivity to sulfate chemistry schemes.</a>
+    <em>Journal of Geophysical Research: Atmospheres</em>, 129(12), e2023JD040635.
+  </p>
+  <ul>
+  <li><strong>Aim:</strong> Evaluate the sensitivity of sulfate aerosol to DMS oxidation pathways in CMIP6 models.</li>
+  <li><strong>Methods:</strong> Implemented seven DMS and sulfate chemistry schemes in an atmosphere-only Earth system model.</li>
+  <li><strong>Results:</strong> The simulated spread in aerosol optical depth and cloud droplet number concentration is more than twice as large as the change from pre-industrial to present-day.</li>
+  <li>Constraining the chemistry of atmospheric sulfur is critical to constrain aerosol-cloud interactions.</li>
+  </ul>
+  <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023JD040635" class="research-link">Read Manuscript</a>
+</div>
+
+<div class="research-item">
+  <h3>Influences of Antarctic Ozone Depletion on Southern Ocean Aerosols</h3>
+  <img src="/assets/Main_page/Paper_1.png" alt="Ozone_Depletion" class="research-image">
+  <p class="citation">
+    <strong>Bhatti, YA.</strong>, Revell, LE., McDonald, AJ. (2022).
+    <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JD037199">Influences of Antarctic ozone depletion on southern ocean aerosols.</a>
+    <em>Journal of Geophysical Research: Atmospheres</em>, 127(18), e2022JD037199.
+  </p>
+  <ul>
+  <li><strong>Aim:</strong> Investigate the impact of Antarctic ozone depletion on Southern Ocean aerosols.</li>
+  <li><strong>Methods:</strong> Analyzed state-of-the-art Earth System Models to evaluate changes in aerosol fluxes and marine biogeochemical activity.</li>
+  <li><strong>Results:</strong> Indirect influences of ozone losses mean Southern Ocean aerosols cannot be considered to be representative of pristine conditions.</li>
+<li> Wind-driven Southern Ocean aerosol fluxes are influenced by the ozone hole during austral summer.</li>
+  </ul>
+  <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022JD037199" class="research-link">Read Manuscript</a>
 </div>
 
 <p class="research-links">
