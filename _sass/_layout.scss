@@ -140,6 +140,9 @@ pre code.hljs {
   // Nav menu
   .navigation-wrapper {
   	@include outer-container;
+    // Default outer-container caps this at 48em (768px), which was already tight for 5 links;
+    // widen it so a 6th nav item (or a slightly longer label) doesn't force a wrap onto a 2nd row.
+    max-width: 72em;
     @include clearfix;
     position: relative;
   }
@@ -148,6 +151,9 @@ pre code.hljs {
     height: 4em;
     @include media ($tablet) {
     	padding-left: $em-base;
+    	padding-right: 10em;
+    	// Vertical divider between the logo and the nav tabs,.
+    	border-right: 1px solid $base-border-color;
     }
     img {
       max-height: 2.5em;
@@ -163,6 +169,7 @@ pre code.hljs {
     padding: 1.25em 0;
     @include media ($tablet) {
       float: right;
+      margin-left: 1.2em;
       line-height: 1.5em;
     }
   }
@@ -199,7 +206,7 @@ pre code.hljs {
   	a {
 	    display: inline-block;
 	    @include media ($tablet) {
-	      padding-right: 2em;
+	      padding-right: 1.4em;
 				font-weight: bold;
 
 	    }
