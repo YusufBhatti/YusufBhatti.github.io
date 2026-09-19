@@ -8,7 +8,7 @@ main_nav: true
 <div class="lineage-section">
   <p class="lineage-intro">
     
-    Here is my academic lineage, showing the timeline of supervisors.
+    Here is a fun side-project showing my academic lineage - a timeline of supervisors and their supervisors.
   </p>
 
   <div class="lineage-chain">
