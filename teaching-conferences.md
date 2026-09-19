@@ -15,8 +15,11 @@ main_nav: true
 ---
 
 ## Invited Talks and Conference Chairing
+- **2026** Invited Talk – CleanCloud Seminar, Online  
+- **2026** Invited Talk [Highlight talk] – CleanCloud Annual Meeting, Frankfurt, Germany  
 - **2026** Invited Talk – ClearAir symposium on Clouds and Aerosols (using EarthCARE and PACE),
 Leiden, Netherlands  
+- **2026** International Workshop (Progress towards maximum feasible constraint of climate model uncertainty) – Co-organizer, Leiden, Netherlands  
 - **2023** Invited Talk – Met Office  
 - **2022** Invited Talk – Clean Air Society of New Zealand and Australia  
 - **2022** Seminar in Physics. University of Canterbury. 
@@ -28,10 +31,14 @@ Leiden, Netherlands
 
 ## Grants and Awards
 
+- **2026** Best ECR presentation, Frankfurt  
 - **2025** National award from Dutch Government to attend the NASA PACE Hackathon, Baltimore 
 - **2025** Surf/NWO-i HPC CPU and GPU Large Compute Grant (~€60,000)  
-- **2024** Surf HPC CPU Small Compute Grant (~€15,000)  
+- **2024** Surf HPC CPU Small Compute Grant (~€15,000) × 2  
+- **2023** EU Horizon Postdoctoral Fellowship  
+- **2023** University of Cambridge CARES Postdoctoral Fellowship (award declined)  
 - **2023** UC Foundation Doctoral Publication Prize  
+- **2023** Top 10% Downloaded Paper (Wiley) in 2022  
 - **2022** UC Foundation Doctoral Publication Prize  
 - **2021** Outstanding People's Choice Poster – Antarctica New Zealand Conference, Christchurch  
 - **2020** Winner – University of Canterbury Gradfest Competition  
@@ -50,9 +57,11 @@ Leiden, Netherlands
 ---
 
 ## Talks
+- **2026** Presentation – European Geosciences Union (EGU), Vienna, Austria
 - **2025** Presentation – Aerocom/Aerosat, Paris, France
 - **2025** Presentation – NASA/UMBC (PACE Hackathon), Baltimore
 - **2025** Presentation – American Meteorological Society, New Orleans  
+- **2024** Presentation – SRON Space Research Organisation Netherlands  
 - **2024** Presentation – Aerocom/Aerosat, Lille  
 - **2023** Presentation – New Zealand Meteorological Society Conference, Wellington
 - **2023** Presentation – European Geosciences Union (EGU), Vienna   
@@ -70,6 +79,7 @@ Leiden, Netherlands
 ## Society Memberships
 - European Geosciences Union   
 - American Meteorological Society  
+- CleanCloud EU Horizon Science Team  
 - Australian Meteorological and Oceanographic Society  
 - Meteorological Society of New Zealand  
 - Clean Air Society of Australia & New Zealand  

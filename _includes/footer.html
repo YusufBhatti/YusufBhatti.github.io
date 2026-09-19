@@ -27,7 +27,8 @@
           {% if social.url != "" %}
           <li>
             <a href="{{ social.url }}" title="{{ social.desc }}">
-              <i class="fa fa-{{ social.icon }}"></i>
+              {% assign icon_prefix = social.icon_prefix | default: "fa" %}
+              <i class="{{ icon_prefix }} {{ icon_prefix }}-{{ social.icon }}"></i>
               <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
             </a>
           </li>

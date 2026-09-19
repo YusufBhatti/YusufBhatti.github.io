@@ -69,7 +69,7 @@ Having lived in four countries, I have embraced a culturally immersive and adapt
   }
 </style>
 <div class="experience-section">
-  <h1>Work Experience</h1>
+  <h1>Research Experience</h1>
   <div class="experience-item">
     <h3> 2024 – Present</h3>
     <h4>Research Scientist</h4>

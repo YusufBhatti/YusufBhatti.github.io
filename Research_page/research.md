@@ -1,20 +1,19 @@
 ---
 layout: page
-title: "Publications"
-permalink: /publications/
+title: "Research"
+permalink: /research/
 main_nav: true
 ---
 You can also visit my <a href="https://scholar.google.com/citations?user=G7Si4kEAAAAJ&hl=en">google scholar</a> or visit my <a href="https://orcid.org/0000-0003-1254-9845">ORCID record</a> 
 
 
 <!-- See <a href="Coding-Development.md">Coding Development</a> for model development, software development, and other projects involved in doing these publications. -->
-For a more in-depth look into my past projects, see <a href="#past-publications-overview"> the overview of previous research section</a>
+For a more in-depth look into my past projects, see <a href="#past-research-overview"> the overview of previous research section</a>
 
 
-<!-- <h3 id="publications">Past Lead Author Publications and Research</h3> -->
+<!-- <h3 id="research">Past Lead Author Research</h3> -->
 
-<a id="publications"></a>
-<h3 id="publications">Publications and Journal Articles</h3>
+<h3 id="research">Research and Journal Articles</h3>
 <div class="research-list">
 
 <h4>Lead Author Publications</h4>
@@ -116,9 +115,7 @@ For a more in-depth look into my past projects, see <a href="#past-publications-
   <!-- <p><em>Status: In preparation</em></p> -->
 </div>
 
-<a id="past-publications-overview"></a>
-
-<h3 id="past-publications-overview">Overview of previous research</h3>
+<h3 id="past-research-overview">Overview of previous research</h3>
 
 
   <div class="research-item">
@@ -238,7 +235,7 @@ body {
   color: #1a0dab;
   text-decoration: underline;
 }
-=
+
   /* Styling for the Research List */
   .research-list {
     max-width: 800px;

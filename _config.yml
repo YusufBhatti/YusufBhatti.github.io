@@ -8,6 +8,10 @@ plugins:
 exclude:
   - "/vendor/"
 
+# Protect the deploy git repo living inside _site from Jekyll's cleaner.
+keep_files:
+  - ".git"
+
 # Site settings
 title: Yusuf Bhatti
 subtitle: "Research Scientist in Atmospheric Physics"
@@ -88,7 +92,8 @@ social:
     share: true
 
   - name: Google Scholar
-    icon: google-plus
+    icon: google-scholar
+    icon_prefix: ai
     username: "Google Scholar"
     url: "https://scholar.google.com/citations?user=G7Si4kEAAAAJ&hl=en"
     share: true
