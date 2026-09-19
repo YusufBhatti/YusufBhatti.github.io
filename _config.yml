@@ -54,8 +54,8 @@ jekyll-archives:
 
 # Disqus comments
 
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+# GoatCounter analytics (private, cookie-free): https://www.goatcounter.com/
+goatcounter_code: "yusufbhatti"
 
 # Category descriptions (for archive pages)
 descriptions:
