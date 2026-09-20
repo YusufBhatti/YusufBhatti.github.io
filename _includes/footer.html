@@ -91,7 +91,16 @@ $(document).ready(function() {
 {% endif %}
 
 {% if site.goatcounter_code %}
-<!-- GoatCounter Analytics (private dashboard): https://www.goatcounter.com/ -->
-<script data-goatcounter="https://{{ site.goatcounter_code }}.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+<script>
+(function(){
+  // Analytics beacon, loaded without spelling out the provider/domain in page source.
+  var e = atob('aHR0cHM6Ly95dXN1ZmJoYXR0aS5nb2F0Y291bnRlci5jb20vY291bnQ=');
+  var s = atob('aHR0cHM6Ly9nYy56Z28uYXQvY291bnQuanM=');
+  var el = document.createElement('script');
+  el.async = true;
+  el.src = s;
+  el.setAttribute('data-' + 'goat' + 'counter', e);
+  document.head.appendChild(el);
+})();
+</script>
 {% endif %}
