@@ -5,7 +5,7 @@ permalink: /about/
 main_nav: true
 ---
 
-![alt text]({{ site.baseurl }}/assets/Yusuf_Headshot.jpg){:.profile}
+![alt text]({{ site.baseurl }}/assets/Yusuf_Headshot-web.jpg){:.profile}
 
 <div class="about-section">
   <h1></h1>

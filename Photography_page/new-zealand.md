@@ -4,18 +4,26 @@ title: New Zealand
 permalink: /photography/travelling/new-zealand/
 ---
 
-<a href="hiking-trips.md">Hiking Trips</a>
+<div class="page-nav-sticky">
+  <a class="back-link" href="{{ '/photography/travelling' | relative_url }}">&larr; Back to Travelling</a>
+  <span class="page-nav-title">{{ page.title }}</span>
+</div>
+
+New Zealand
+
+{% assign trip_files = site.static_files | where_exp: "f", "f.path contains '/assets/Travelling/New_Zealand/'" | sort: "path" %}
 
 <div class="gallery">
-  <a href="{{ '/assets/New_Zealand/sunset_abel.JPG' | relative_url }}" data-lightbox="new-zealand" data-title="Abel Tasman sunset">
-    <img src="{{ '/assets/New_Zealand/sunset_abel.JPG' | relative_url }}" alt="New Zealand Image 1">
+{% for f in trip_files %}
+  {% assign ext = f.extname | downcase %}
+  {% if ext == ".jpg" or ext == ".jpeg" or ext == ".png" %}
+  <a href="{{ f.path | relative_url }}" data-lightbox="new-zealand" data-title="New Zealand">
+    <img src="{{ f.path | relative_url }}" alt="New Zealand" loading="lazy">
   </a>
-
-  <a href="{{ '/assets/New_Zealand/image2.jpg' | relative_url }}" data-lightbox="new-zealand" data-title="New Zealand Image 2">
-    <img src="{{ '/assets/New_Zealand/image2.jpg' | relative_url }}" alt="New Zealand Image 2">
-  </a>
-  <!-- Add more images as needed -->
+  {% endif %}
+{% endfor %}
 </div>
+
 <style>
 body {
   background-color: #e6f4fb; /* Soft sky blue */

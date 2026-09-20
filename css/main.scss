@@ -34,7 +34,10 @@
 
 
 .album {
-  flex: 1 1 calc(33.333% - 40px);
+  // flex-grow is 0 (not 1) on purpose: a 1 here lets a lone leftover item on an
+  // incomplete last row (e.g. the 10th tile in a 3-column grid) stretch to fill
+  // the whole row's empty space instead of staying the same size as every other tile.
+  flex: 0 1 calc(33.333% - 40px);
   text-align: center;
 }
 
@@ -65,6 +68,65 @@
   width: 100%;
   height: auto;
   border-radius: 8px;
+}
+
+// "Back to X" link + current page title, on every gallery/trip page. Pinned to the
+// far left edge of the viewport and follows you down the page as you scroll, instead
+// of scrolling away with the content - kept clear of the centered photo grid
+// (max-width 1150px) so it never sits on top of a photo. Below ~1300px wide there's
+// no side margin left to put it in, so it drops back to normal inline flow instead.
+.page-nav-sticky {
+  position: fixed;
+  top: 90px;
+  left: 20px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  max-width: 170px;
+}
+
+.back-link {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 5px 12px;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
+.page-nav-title {
+  font-size: 0.75em;
+  color: #555;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 3px 10px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1300px) {
+  .page-nav-sticky {
+    position: static;
+    display: block;
+    max-width: none;
+    margin-bottom: 1em;
+  }
+  .back-link {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    font-size: 1em;
+  }
+  .page-nav-title {
+    display: block;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    margin-top: 4px;
+  }
 }
 
 @media (max-width: 768px) {

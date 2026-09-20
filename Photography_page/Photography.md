@@ -8,13 +8,13 @@ main_nav: true
 
   <div class="photography">
     <!-- <h1>Photography</h1> -->
-    <p>Explore my photography albums from different activities. This section is still being worked on</p>
+    <p>Have a look at some of my photography albums from all the different activities I enjoy doing.</p>
 
     <div class="project-grid">
       <!-- Hiking Trips Album -->
       <div class="project-item">
         <a href="{{ '/photography/hiking-trips' | relative_url }}">
-          <img src="{{ '/assets/New_Zealand/cover.jpg' | relative_url }}" alt="Hiking Trips">
+          <img src="{{ '/assets/Photography_covers/hiking-trips-cover.jpg' | relative_url }}" alt="Hiking Trips">
           <h3>Hiking Trips</h3>
         </a>
       </div>
@@ -22,7 +22,7 @@ main_nav: true
       <!-- Field Work Album -->
       <div class="project-item">
         <a href="{{ '/photography/field-work' | relative_url }}">
-          <img src="{{ '/assets/Field-work/Italy/Etna/cover.jpg' | relative_url }}" alt="Field Work">
+          <img src="{{ '/assets/Photography_covers/field-work-cover.jpg' | relative_url }}" alt="Field Work">
           <h3>Field Work</h3>
         </a>
       </div>
@@ -30,7 +30,7 @@ main_nav: true
       <!-- Travelling Album -->
       <div class="project-item">
         <a href="{{ '/photography/travelling' | relative_url }}">
-          <img src="{{ '/assets/Travelling/Australia/IMG_9823.jpeg' | relative_url }}" alt="Travelling">
+          <img src="{{ '/assets/Photography_covers/travelling-cover.jpeg' | relative_url }}" alt="Travelling">
           <h3>Travelling</h3>
         </a>
       </div>

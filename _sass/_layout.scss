@@ -228,6 +228,11 @@ pre code.hljs {
 	margin-top: 66px;
 	.wrapper {
 		@include outer-container;
+		// Default outer-container caps this at 48em (768px). Widen it site-wide for pages
+		// that don't set their own narrower inner max-width (e.g. Photography/Hiking) -
+		// pages that already define one (About, Research, Publications, Academic Lineage,
+		// Teaching & Conferences) are unaffected since their own inner width wins regardless.
+		max-width: 1150px;
 		padding: 1em;
 	}
 	/*

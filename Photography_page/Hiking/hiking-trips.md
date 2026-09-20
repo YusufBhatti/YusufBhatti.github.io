@@ -1,19 +1,29 @@
 ---
 layout: page
-title: New Zealand Hiking Trips
+title: Hiking Trips
 permalink: /photography/hiking-trips
 ---
 
-<a href="hiking-trips.md">Hiking Trips</a>
+<div class="page-nav-sticky">
+  <a class="back-link" href="{{ '/photography' | relative_url }}">&larr; Back to Photography </a>
+  <span class="page-nav-title">{{ page.title }}</span>
+</div>
 
-While I was living in New Zealand, I had an amazing opportunity to travel the amazing country and hike all around the stunning landscape (or more locally called 'Tramping'). Some of the tramps were multi-day, but most often were just 2 day in-and-out trips, staying in an alpine hut or tenting.
+On this page, you can see some of the trips I've been on where I have spent at least 2 days hiking. Particularly while I was living in New Zealand, I had an amazing opportunity to travel around the country and hike the stunning landscapes (which is more locally termed "tramping"). Some of those 'tramps' were multi-day, but most often were just 2-day in-and-out trips, staying in an alpine hut or tenting. After leaving New Zealand and moving to the Netherlands, I started to explore some of the multi-day hikes on offer in Europe.
 
 <div class="fieldwork-gallery">
-  <h2>Countries</h2>
+  <h2>Trips</h2>
 
-  <div class="albums">
+    <div class="albums">
     <div class="album">
-      <a href="{{ '/photography/hiking-trips/Edward_Hut-2023' | relative_url }}">
+      <a href="{{ '/photography/hiking-trips/Dolomites-2026' | relative_url }}">
+        <img src="{{ '/assets/Hiking_Trips/Dolomites_2026/20260713_100708.jpg' | relative_url }}" alt="Dolomites Huts 2026">
+        <h3>Dolomites Huts 2026 (3 days)</h3>
+      </a>
+    </div>
+
+    <div class="album">
+      <a href="{{ '/photography/hiking-trips/Edward-Hut-2023' | relative_url }}">
         <img src="{{ '/assets/Hiking_Trips/Edward_Hut/misty.JPG' | relative_url }}" alt="Edward Hut 2023">
         <h3>Edward Hut 2023 (2 days)</h3>
       </a>
@@ -65,6 +75,13 @@ While I was living in New Zealand, I had an amazing opportunity to travel the am
       <a href="{{ '/photography/hiking-trips/Tribulation_Hut-2022' | relative_url }}">
         <img src="{{ '/assets/Hiking_Trips/Tribulation_Hut/hut.JPG' | relative_url }}" alt="Tribulation Hut">
         <h3>Tribulation Hut 2022 (2 days)</h3>
+      </a>
+    </div>
+
+    <div class="album">
+      <a href="{{ '/photography/hiking-trips/Brewster-Hut-2022' | relative_url }}">
+        <img src="{{ '/assets/Hiking_Trips/Brewster_Hut/sunset_mountain.jpeg' | relative_url }}" alt="Brewster Hut 2022">
+        <h3>Brewster Hut 2022 (2 days)</h3>
       </a>
     </div>
   </div>
