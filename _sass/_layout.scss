@@ -141,8 +141,9 @@ pre code.hljs {
   .navigation-wrapper {
   	@include outer-container;
     // Default outer-container caps this at 48em (768px), which was already tight for 5 links;
-    // widen it so a 6th nav item (or a slightly longer label) doesn't force a wrap onto a 2nd row.
-    max-width: 72em;
+    // widened for 7 nav links, then again to also fit the 4 social icons on the same row
+    // without them wrapping onto a 2nd line.
+    max-width: 84em;
     @include clearfix;
     position: relative;
   }
@@ -168,9 +169,33 @@ pre code.hljs {
     float: none;
     padding: 1.25em 0;
     @include media ($tablet) {
-      float: right;
+      float: left;
       margin-left: 1.2em;
       line-height: 1.5em;
+    }
+  }
+  // Social icons (LinkedIn/Scholar/GitHub/ORCID), floated to the far right of the bar -
+  // sits to the right of the nav links (which float left, right after the logo).
+  .nav-social-icons {
+    display: none;
+    @include media ($tablet) {
+      display: block;
+      float: right;
+      list-style: none;
+      margin: 0;
+      padding: 1.25em 0;
+      line-height: 1.5em;
+    }
+    li {
+      display: inline-block;
+      margin-left: 1.1em;
+    }
+    a {
+      color: $action-color;
+      font-size: 1.2em;
+    }
+    a:hover {
+      color: darken($action-color, 15%);
     }
   }
   ul.navigation-menu {
