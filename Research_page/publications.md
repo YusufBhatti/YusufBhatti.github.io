@@ -79,7 +79,9 @@ and highlighted papers.
 
   <li>
     Arifi, A., Jia, H., Fu, G., Tsikerdekis, A., Schutgens, N., Kubin, A., <strong>Bhatti, YA.</strong>, Dusek, U., and Hasekamp, O. (2026).
+        <a href="https://doi.org/10.5194/egusphere-2026-5361">
     Aerosol emission estimates through SPEXone/PACE data assimilation in ECHAM6.3-HAM2.3: implications for aerosol radiative forcing.
+        </a>
     <em>Atmospheric Chemistry and Physics</em> [in review].
   </li>
 
