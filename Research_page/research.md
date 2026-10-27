@@ -45,7 +45,7 @@ my <a href="/publications">Publications page</a> for the complete list.
   <h3>Using machine learning and satellites to constrain climate models' aerosol uncertainty</h3>
   <img src="/assets/Main_page/PACE_mission.jpg" alt="Aerosol-cloud interactions" class="research-image">
   <strong>Bhatti, YA.,</strong> Regayre, L., Jia, H., Watson-Parris, D., Im, U., Schutgens, N., Nenes, A., van Diedenhoven, B., Zadelhoff, G., and Hasekamp, O. (2026).
-  Multi-satellite constraints reduce uncertainty in modeled aerosol forcing. <em>Science Advances</em> [in review].
+  Multi-satellite constraints reduce uncertainty in modeled aerosol forcing. <em>Nature Communications</em> [in review].
 
   <ul>
   <li><strong>Aim:</strong> Constrain aerosol Effective Radiative Forcing (ERF) uncertainty in climate models - one of the largest remaining uncertainties in future climate projections.</li>
