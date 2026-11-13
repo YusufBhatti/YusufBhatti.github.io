@@ -66,10 +66,10 @@ and highlighted papers.
 
   <li>
     Jia, H., Neubauer, D., <strong>Bhatti, YA.</strong>, Watson-Parris, D., Stier, P., Quaas, J., Partridge, D., Arifi, A., Kubin, A., Nenes, A., Irfan, M., Im, U., Svenhag, C., Schutgens, N., van Diedenhoven, B., Ferrachat, S., Lohmann, U., Tegen, I., Henkes, A., Fu, G., and Hasekamp, O. (2026).
-    <a href="https://doi.org/10.5194/egusphere-2026-3275">
+    <a href="https://doi.org/10.5194/acp-26-16067-2026">
       Process-level contributions to uncertainty in aerosol effective radiative forcing: a perturbed parameter ensemble with the aerosol–climate model ICON–HAM.
     </a>
-    <em>Atmospheric Chemistry and Physics</em> [in review].
+    <em>Atmospheric Chemistry and Physics</em> 26(1), 16067–16099.
   </li>
 
   <li>
