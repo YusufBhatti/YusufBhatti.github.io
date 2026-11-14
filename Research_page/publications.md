@@ -8,7 +8,7 @@ main_nav: true
 <div class="research-list">
 
 <p class="research-links">
-13 peer-reviewed publications (5 as first author), including 5 under review. See my
+13 peer-reviewed publications (5 as first author), including 4 under review. See my
 <a href="https://scholar.google.com/citations?user=G7Si4kEAAAAJ&hl=en">Google Scholar</a> or
 <a href="https://orcid.org/0000-0003-1254-9845">ORCID record</a> or visit my <a href="/research">Research page</a> for a more detailed overview of my current work
 and highlighted papers.
