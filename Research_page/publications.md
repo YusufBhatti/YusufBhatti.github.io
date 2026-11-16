@@ -19,7 +19,8 @@ and highlighted papers.
 
   <li>
     <strong>Bhatti, YA.,</strong> Regayre, L., Jia, H., Watson-Parris, D., Im, U., Schutgens, N., Nenes, A., van Diedenhoven, B., Zadelhoff, G., and Hasekamp, O. (2026).
-    Multi-satellite constraints reduce uncertainty in modeled aerosol forcing. <em>npj Climate and Atmospheric Science</em> [in review].
+    <a href="https://doi.org/10.21203/rs.3.rs-11566798/v1">
+    Multi-satellite constraints reduce uncertainty in modeled aerosol forcing. </a> <em>npj Climate and Atmospheric Science</em> [in review].
   </li>
 
   <li>
